@@ -1,18 +1,85 @@
-{"slug":"art-cut-tech","kind":"barber","name":"Art-Cut-Techs Barbershop","short":"Art-Cut-Techs","initial":"A",
-"address":"2843 E State Blvd, Fort Wayne, IN 46805","phone":"(260) 750-2889","phoneTel":"+12607502889","lat":41.097491,"lon":-85.102177,
-"rating":{"value":"4.7","count":"127"},"reviewStars":5,
-"headline":"Barbershop in<br><em>Fort Wayne,</em> with a family vibe.",
-"leadText":"Art-Cut-Techs Barbershop at 2843 E State Blvd, Fort Wayne. Customers say a friendly shop, walk-ins welcome and kids made comfortable.",
-"reviews":["Great local shop a friendly folks that accepted me as a walk in respectfully and they engaged conversation. Mixture of ages in the shop both of customers and staff.","Great place! I got a great cut! I brought my son (almost 3 years old) who only had one cut before. His first cut, not here, was screaming and hated it. Here they made him super comfortable and he was content literally the entire time. Great atmosphere..great staff!","Amazing cleanly place, Always a good atmosphere, Barbers are always super laid-back and chill willing to talk to the customers."],
-"theme":{"accent":"#2f86e8","ink":"#07090d","ink2":"#12171f","glow":"#12315c","accentDark":"#1c5fb0","note":"from the blue and black on the shop's own logo"},
-"mascot":"Art-Cut-Techs Assistant","mascotKind":"scissors","sampleCount":2,
-"services":[
-{"t":"Men's haircuts","d":"Customers describe great cuts in a laid-back, clean shop.","src":"From Google reviews"},
-{"t":"Kids' haircuts","d":"Parents say the barbers made young boys comfortable, including a first haircut.","src":"From Google reviews"},
-{"t":"Walk-ins welcome","d":"A customer was accepted as a walk-in.","src":"From a Google review"},
-{"t":"Barbershop and supplies","d":"The shop's logo reads \"Barbershop & Supplies\".","src":"From the shop's Facebook logo"}],
-"qa":[{"q":"Do you take walk-ins?","a":"A customer wrote on Google: \u201Cfriendly folks that accepted me as a walk in respectfully.\u201D Call (260) 750-2889 to check the wait."},
-{"q":"Is it OK to bring a young kid?","a":"A parent wrote on Google: \u201CHere they made him super comfortable and he was content literally the entire time.\u201D"},
-{"q":"What is the shop like?","a":"A customer wrote on Google: \u201CAmazing cleanly place, Always a good atmosphere.\u201D"}],
-"photoSources":["https://facebook.com/647850191950553"],
-"images":{"logo":{"file":"logo.jpg","square":true}}}
+{
+ "slug": "art-cut-tech",
+ "kind": "barber",
+ "name": "Art-Cut-Techs Barbershop",
+ "short": "Art-Cut-Techs",
+ "initial": "A",
+ "address": "2843 E State Blvd, Fort Wayne, IN 46805",
+ "phone": "(260) 750-2889",
+ "phoneTel": "+12607502889",
+ "lat": 41.097491,
+ "lon": -85.102177,
+ "rating": {
+  "value": "4.7",
+  "count": "127"
+ },
+ "reviewStars": 5,
+ "headline": "Barbershop in<br><em>Fort Wayne,</em> with a family vibe.",
+ "leadText": "Art-Cut-Techs Barbershop at 2843 E State Blvd, Fort Wayne. Customers say a friendly shop, walk-ins welcome and kids made comfortable.",
+ "reviews": [
+  "Great local shop a friendly folks that accepted me as a walk in respectfully and they engaged conversation. Mixture of ages in the shop both of customers and staff.",
+  "Great place! I got a great cut! I brought my son (almost 3 years old) who only had one cut before. His first cut, not here, was screaming and hated it. Here they made him super comfortable and he was content literally the entire time. Great atmosphere..great staff!",
+  "Amazing cleanly place, Always a good atmosphere, Barbers are always super laid-back and chill willing to talk to the customers."
+ ],
+ "theme": {
+  "accent": "#2f86e8",
+  "ink": "#07090d",
+  "ink2": "#12171f",
+  "glow": "#12315c",
+  "accentDark": "#1c5fb0",
+  "note": "from the blue and black on the shop's own logo"
+ },
+ "mascot": "Art-Cut-Techs Assistant",
+ "mascotKind": "scissors",
+ "sampleCount": 2,
+ "services": [
+  {
+   "t": "Men's haircuts",
+   "d": "Customers describe great cuts in a laid-back, clean shop.",
+   "src": "From Google reviews"
+  },
+  {
+   "t": "Kids' haircuts",
+   "d": "Parents say the barbers made young boys comfortable, including a first haircut.",
+   "src": "From Google reviews"
+  },
+  {
+   "t": "Walk-ins welcome",
+   "d": "A customer was accepted as a walk-in.",
+   "src": "From a Google review"
+  },
+  {
+   "t": "Barbershop and supplies",
+   "d": "The shop's logo reads \"Barbershop & Supplies\".",
+   "src": "From the shop's Facebook logo"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Do you take walk-ins?",
+   "a": "A customer wrote on Google: \u201cfriendly folks that accepted me as a walk in respectfully.\u201d Call (260) 750-2889 to check the wait."
+  },
+  {
+   "q": "Is it OK to bring a young kid?",
+   "a": "A parent wrote on Google: \u201cHere they made him super comfortable and he was content literally the entire time.\u201d"
+  },
+  {
+   "q": "What is the shop like?",
+   "a": "A customer wrote on Google: \u201cAmazing cleanly place, Always a good atmosphere.\u201d"
+  }
+ ],
+ "photoSources": [
+  "https://facebook.com/647850191950553",
+  "Hero image: Unsplash stock photo, illustrative only"
+ ],
+ "images": {
+  "logo": {
+   "file": "logo.jpg",
+   "square": true
+  },
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true
+}
