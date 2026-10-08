@@ -6,7 +6,9 @@
  <a class="logo" href="#top"><span class="mark">C</span><span>Critter Sitters</span></a>
  <nav><div class="dd"><a href="#services">Services <span class="car">&#9662;</span></a><div class="menu"><a href="#services">Pet sitting and house sitting</a><a href="#services">Dog boarding and pet sitting</a><a href="#services">Care for cats, fish and exotic pets</a><a href="#services">Daily updates with pictures</a><a href="#services">Medication, nail trims, baths and minor grooming</a></div></div><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
  <a class="btn btn-sm" href="tel:+15743093634">Call<span class="hide-s"> (574) 309-3634</span></a>
-</div></header></div>
+ <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" onclick="var m=document.getElementById('mnav');var o=m.classList.toggle('on');this.classList.toggle('on',o);this.setAttribute('aria-expanded',o)"><i></i><i></i><i></i></button>
+</div></header>
+<div id="mnav" onclick="this.classList.remove('on');document.getElementById('burger').classList.remove('on')"><a href="#top">Home</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Contact</a><a class="cta2" href="tel:+15743093634">Call (574) 309-3634</a></div></div>
 <main id="top">
 <section class="hero has-img" data-hero="logo.jpg"><div class="wrap hero-in">
  <div class="hero-copy">
