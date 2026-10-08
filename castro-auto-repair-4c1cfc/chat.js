@@ -12,6 +12,7 @@ var rules=[
  [/hour|open|close|when|today|sunday|saturday/i,"I don't have confirmed hours. Please call "+S.phone+" to check."],
  [/price|cost|how much|quote|estimate|cheap/i,"I can't give prices here. Call "+S.phone+" for a quote."]
 ];
+document.body.classList.add('chat-min');
 add('bot',"Hi, I'm the "+S.short+" chat assistant. This is a demo made by GripX, so I only know the shop's public details. Ask me where we are, what we do, or what customers say.");
 var Q=['Where are you?','What do you do?','What do customers say?','Can I call you?'];
 Q.forEach(function(q){var b=document.createElement('button');b.type='button';b.textContent=q;b.onclick=function(){send(q)};chips.appendChild(b)});
