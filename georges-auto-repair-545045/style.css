@@ -52,3 +52,20 @@ footer{background:#0f2a45;color:#9aa3b0;padding:28px 0;font-size:14px}footer a{c
 @media(max-width:520px){.gal{grid-template-columns:1fr}}
 
 .logo-img.logo-sq{border-radius:10px;object-fit:contain;background:#fff;border:0;padding:2px}
+
+.dd{position:relative}.dd .car{font-size:11px}
+.dd .menu{display:none;position:absolute;left:-14px;top:100%;padding-top:14px;min-width:250px}
+.dd .menu a{display:block;background:#1b3d5f;color:#e9edf2;padding:12px 16px;border-bottom:1px solid #24507a;font-size:14px}
+.dd .menu a:first-child{border-radius:12px 12px 0 0}.dd .menu a:last-child{border-radius:0 0 12px 12px;border-bottom:0}
+.dd:hover .menu,.dd:focus-within .menu{display:block}
+.svcs{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.svcc{display:flex;gap:18px;align-items:flex-start;border:2px solid #e3e6ea;border-radius:16px;padding:24px}
+.svcc h3{margin:0 0 6px;font-size:19px}.svcc p{margin:0;color:#4a5260;font-size:15px}.svcc small{display:block;margin-top:8px;color:#6b7280;font-size:12px;font-style:italic}
+.sec.proud{background:linear-gradient(180deg,#0f2a45,#1b3d5f);color:#fff}.sec.proud h2{color:#fff}
+.stats{display:flex;gap:14px;margin:0 0 28px;flex-wrap:wrap}
+.stat{border:2px solid #f5bd00;border-radius:16px;padding:14px 22px;background:#ffffff0d;display:flex;flex-direction:column}
+.stat b{font-size:34px;color:#f5bd00;line-height:1.1}.stat span{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#c9cfd8;font-weight:700}
+.sec.proud .card{background:linear-gradient(160deg,#fff,#fff8e1);border:2px solid #f5bd00;border-top-width:6px;box-shadow:0 14px 40px #0006}
+.sec.proud .card p{color:#0f2a45}.sec.proud .card small{color:#8a6100}
+.stars{display:block;color:#e0a800;font-size:24px;letter-spacing:3px;margin-bottom:10px}
+@media(max-width:820px){.svcs{grid-template-columns:1fr}.nav-in{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:6px;row-gap:4px}.nav nav{display:flex;order:3;width:100%;margin:0;gap:22px;padding:6px 0 4px;border-top:1px solid #24507a}.dd .menu,.dd .car{display:none!important}.stat{flex:1}.stat b{font-size:30px}}
