@@ -19,4 +19,4 @@
 {"q":"How much will it cost?","a":"I don't have prices and can't give a quote here. One customer wrote: “Prices are great and didn't get pestered about air filters or other misc stuff.” For a quote, call (260) 483-0642."},
 {"q":"Are you open on Saturday?","a":"I don't have confirmed hours. Please call (260) 483-0642 to check."}],
 "photoSources":["https://www.loc8nearme.com/indiana/fort-wayne/ward-stevens-automotive-inc/5354906/","https://facebook.com/604965442709911"],
-"images":{"hero":{"file":"hero.jpg"},"logo":{"file":"logo.jpg","square":true},"gallery":[{"file":"shopa.jpg","alt":"Ward Stevens Automotive building with cars parked out front","caption":"The shop on Glenn Ave"},{"file":"shopb.jpg","alt":"Ward Stevens Automotive building and bays","caption":"Service bays"}]}}
+"images":{"hero":{"file":"shopa.jpg"},"logo":{"file":"logo.jpg","square":true},"gallery":[{"file":"shopa.jpg","alt":"Ward Stevens Automotive building with cars parked out front","caption":"The shop on Glenn Ave"},{"file":"shopb.jpg","alt":"Ward Stevens Automotive building and bays","caption":"Service bays"}]}}
