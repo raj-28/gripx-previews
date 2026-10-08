@@ -6,7 +6,9 @@
  <a class="logo" href="#top">{{logoHtml}}<span>{{short}}</span></a>
  <nav><div class="dd"><a href="#services">Services{{ddArrow}}</a>{{svcMenu}}</div><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
  <a class="btn btn-sm" href="tel:{{phoneTel}}">Call<span class="hide-s"> {{phone}}</span></a>
-</div></header></div>
+ <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" onclick="var m=document.getElementById('mnav');var o=m.classList.toggle('on');this.classList.toggle('on',o);this.setAttribute('aria-expanded',o)"><i></i><i></i><i></i></button>
+</div></header>
+<div id="mnav" onclick="this.classList.remove('on');document.getElementById('burger').classList.remove('on')"><a href="#top">Home</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Contact</a><a class="cta2" href="tel:{{phoneTel}}">Call {{phone}}</a></div></div>
 <main id="top">
 <section {{heroAttr}}><div class="wrap hero-in">
  <div class="hero-copy">
