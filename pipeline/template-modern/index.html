@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{{name}} | Demo by GripX</title>
+<meta name="description" content="Demo website built for {{name}} by GripX. Not live.">
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="top"><div id="demo-banner">DEMO - built for {{name}} by GripX. Not live.</div>
+<header class="nav"><div class="wrap nav-in">
+ <a class="logo" href="#top">{{logoHtml}}<span>{{short}}</span></a>
+ <nav><div class="dd"><a href="#services">Services{{ddArrow}}</a>{{svcMenu}}</div><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+ <a class="btn btn-sm" href="tel:{{phoneTel}}">Call<span class="hide-s"> {{phone}}</span></a>
+</div></header></div>
+<main id="top">
+<section {{heroAttr}}><div class="wrap hero-in">
+ <div class="hero-copy">
+  <p class="eyebrow">{{city}}</p>
+  <h1>{{headline}}</h1>
+  <p class="lead">{{leadText}}</p>
+  <div class="cta"><a class="btn" href="tel:{{phoneTel}}">Call {{phone}}</a><a class="btn btn-ghost" target="_blank" rel="noopener" href="{{mapsLink}}">Get directions</a></div>
+  <p class="note">{{ratingLine}}Call to confirm today's hours.</p>
+ </div>
+ <aside id="chat" class="chat-side" aria-label="Sample chat with {{short}} assistant">
+  <div class="ch-head">{{mascotSvg}}<div><b>{{mascot}}</b><small><i></i>Sample chat for {{short}}</small></div></div>
+  <div class="ch-log" id="log" aria-live="polite"></div>
+  <div class="chips" id="chips"></div>
+  <form id="form" autocomplete="off"><input id="msg" maxlength="200" placeholder="Try your own question..." aria-label="Your message"><button aria-label="Send">Send</button></form>
+  <div class="ch-foot">Demo chatbot. Answers come from the shop's public details and Google reviews.</div>
+ </aside>
+</div></section>
+
+<section class="facts"><div class="wrap facts-in">
+ <div><small>ADDRESS</small><b>{{address}}</b></div>
+ <div><small>PHONE</small><b><a href="tel:{{phoneTel}}">{{phone}}</a></b></div>
+ <div><small>HOURS</small><b>Call to confirm</b></div>
+</div></section>
+
+{{servicesSection}}
+
+{{gallerySection}}
+{{reviewsSection}}
+
+<section id="visit" class="sec"><div class="wrap visit">
+ <div><p class="eyebrow dark">VISIT</p><h2>Find the shop.</h2>
+  <p class="addr">{{name}}<br>{{address}}</p>
+  <div class="cta"><a class="btn" href="tel:{{phoneTel}}">Call {{phone}}</a><a class="btn btn-ghost dark" target="_blank" rel="noopener" href="{{mapsLink}}">Open in Maps</a></div></div>
+</div></section>
+</main>
+<footer><div class="wrap">Demo website built for {{name}} by <a href="https://gripx.tech/">GripX</a>. Not live. Details and review quotes come from the shop's public listings.</div></footer>
+
+
+<script src="img.js"></script><script>window.SHOP={{shopJson}};</script><script src="chat.js" defer></script>
+</body></html>
