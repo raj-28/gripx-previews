@@ -69,3 +69,4 @@ footer{background:#14171c;color:#9aa3b0;padding:28px 0;font-size:14px}footer a{c
 .sec.proud .card p{color:#14171c}.sec.proud .card small{color:#8a6100}
 .stars{display:block;color:#e0a800;font-size:24px;letter-spacing:3px;margin-bottom:10px}
 @media(max-width:820px){.svcs{grid-template-columns:1fr}.nav-in{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:6px;row-gap:4px}.nav nav{display:flex;order:3;width:100%;margin:0;gap:22px;padding:6px 0 4px;border-top:1px solid #2a3140}.dd .menu,.dd .car{display:none!important}.stat{flex:1}.stat b{font-size:30px}}
+@media(max-width:820px){.logo{min-width:0;flex:1}.logo span:last-child{white-space:normal!important;line-height:1.15;font-size:15px}.nav .btn{margin-left:0}}
