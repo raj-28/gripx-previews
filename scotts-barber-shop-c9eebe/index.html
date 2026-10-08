@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Scott's Barber Shop | Demo by GripX</title>
+<meta name="description" content="Demo website built for Scott's Barber Shop by GripX. Not live.">
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="top"><div id="demo-banner">DEMO - built for Scott's Barber Shop by GripX. Not live.</div>
+<header class="nav"><div class="wrap nav-in">
+ <a class="logo" href="#top"><span class="mark">S</span><span>Scott's Barber Shop</span></a>
+ <nav><div class="dd"><a href="#services">Services</a></div><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+ <a class="btn btn-sm" href="tel:+12708232034">Call<span class="hide-s"> (270) 823-2034</span></a>
+ <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" onclick="var m=document.getElementById('mnav');var o=m.classList.toggle('on');this.classList.toggle('on',o);this.setAttribute('aria-expanded',o)"><i></i><i></i><i></i></button>
+</div></header>
+<div id="mnav" onclick="this.classList.remove('on');document.getElementById('burger').classList.remove('on')"><a href="#top">Home</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Contact</a><a class="cta2" href="tel:+12708232034">Call (270) 823-2034</a></div></div>
+<main id="top">
+<section class="hero has-img" data-hero="hero.jpg" data-pos="30% 45%"><div class="wrap hero-in">
+ <div class="hero-copy">
+  <p class="eyebrow">Evansville, IN</p>
+  <h1>Barber shop in<br><em>Evansville,</em> straight-up haircuts.</h1>
+  <p class="lead">Scott's Barber Shop at 1629 Harmony Way, Evansville. Customers call it a great barber shop with excellent work.</p>
+  <div class="cta"><a class="btn" href="tel:+12708232034">Call (270) 823-2034</a><a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Scott's%20Barber%20Shop%2C%201629%20Harmony%20Way%2C%20Evansville%2C%20IN%2047720">Get directions</a></div>
+  <p class="note">Closed Sunday and Monday. Hours from public listings, call to confirm.</p>
+ </div>
+ <aside id="chat" class="chat-side" aria-label="Sample chat with Scott's Barber Shop assistant">
+  <div class="ch-head"><svg class="mascot" viewBox="0 0 120 80" aria-hidden="true"><ellipse cx="60" cy="74" rx="36" ry="4" fill="#0006"/><circle cx="60" cy="42" r="30" fill="var(--a)"/><circle cx="50" cy="38" r="6" fill="#fff"/><circle cx="70" cy="38" r="6" fill="#fff"/><circle cx="51" cy="39" r="3" fill="#080a08"/><circle cx="71" cy="39" r="3" fill="#080a08"/><path d="M48 52q12 9 24 0" fill="none" stroke="#080a08" stroke-width="3" stroke-linecap="round"/><path d="M34 22l-8-12M86 22l8-12" stroke="#080a08" stroke-width="4" stroke-linecap="round"/><circle cx="24" cy="8" r="5" fill="none" stroke="#080a08" stroke-width="3"/><circle cx="96" cy="8" r="5" fill="none" stroke="#080a08" stroke-width="3"/></svg><div><b>Scott's Barber Shop Assistant</b><small><i></i>Sample chat for Scott's Barber Shop</small></div></div>
+  <div class="ch-log" id="log" aria-live="polite"></div>
+  <div class="chips" id="chips"></div>
+  <form id="form" autocomplete="off"><input id="msg" maxlength="200" placeholder="Try your own question..." aria-label="Your message"><button aria-label="Send">Send</button></form>
+  <div class="ch-foot">Demo chatbot. Answers come from the business's public details and Google reviews.</div>
+ </aside>
+</div></section>
+
+<section class="facts"><div class="wrap facts-in">
+ <div><small>ADDRESS</small><b>1629 Harmony Way, Evansville, IN 47720</b></div>
+ <div><small>PHONE</small><b><a href="tel:+12708232034">(270) 823-2034</a></b></div>
+ <div><small>HOURS</small><b>Tue-Fri 8-5, Sat 8-1</b></div>
+</div></section>
+
+<section id="services" class="sec"><div class="wrap"><p class="eyebrow dark">SERVICES</p><h2>What they do.</h2><div class="svcs"><div class="svcc"><div class="ico"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M9 16.200 4.800 12l-1.400 1.400L9 19 21 7l-1.400-1.400z"/></svg></div><div><h3>Barber haircuts</h3><p>Reviews are about haircuts.</p><small>From customer reviews</small></div></div></div><div class="cta" style="margin-top:28px"><a class="btn" href="tel:+12708232034">Call (270) 823-2034</a></div></div></section>
+
+
+<section id="reviews" class="sec alt"><div class="wrap"><p class="eyebrow dark">WHAT CUSTOMERS SAY</p><h2>Real words from Google reviews.</h2><div class="rev"><div class="card ach"><span class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>&ldquo;Great barber shop&rdquo;</p><small>5-STAR GOOGLE REVIEW</small></div><div class="card ach"><span class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>&ldquo;Great place to get a haircut.&rdquo;</p><small>5-STAR GOOGLE REVIEW</small></div><div class="card ach"><span class="stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><p>&ldquo;does an awesome job!&rdquo;</p><small>5-STAR GOOGLE REVIEW</small></div></div></div></section>
+
+<section id="visit" class="sec"><div class="wrap visit">
+ <div><p class="eyebrow dark">VISIT</p><h2>Find the shop.</h2>
+  <p class="addr">Scott's Barber Shop<br>1629 Harmony Way, Evansville, IN 47720</p>
+  <div class="cta"><a class="btn" href="tel:+12708232034">Call (270) 823-2034</a><a class="btn btn-ghost dark" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Scott's%20Barber%20Shop%2C%201629%20Harmony%20Way%2C%20Evansville%2C%20IN%2047720">Open in Maps</a></div></div>
+</div></section>
+</main>
+<footer><div class="wrap">Demo website built for Scott's Barber Shop by <a href="https://gripx.tech/">GripX</a>. Not live. Details and review quotes come from the business's public listings.</div></footer>
+
+
+<script src="img.js"></script><script>window.SHOP={"slug":"scotts-barber-shop","kind":"barber","name":"Scott's Barber Shop","short":"Scott's Barber Shop","initial":"S","address":"1629 Harmony Way, Evansville, IN 47720","phone":"(270) 823-2034","phoneTel":"+12708232034","lat":37.9947651,"lon":-87.615996,"rating":null,"reviewStars":5,"headline":"Barber shop in\u003cbr>\u003cem>Evansville,\u003c/em> straight-up haircuts.","leadText":"Scott's Barber Shop at 1629 Harmony Way, Evansville. Customers call it a great barber shop with excellent work.","reviews":["Great barber shop","Great place to get a haircut.","does an awesome job!"],"theme":{"accent":"#d9a441","ink":"#101214","ink2":"#181c20","glow":"#2a3138","accentDark":"#a6761f","note":"warm amber against the grey barber shop photo"},"mascot":"Scott's Barber Shop Assistant","mascotKind":"scissors","sampleCount":2,"services":[{"t":"Barber haircuts","d":"Reviews are about haircuts.","src":"From customer reviews"}],"qa":[{"q":"Is it a good place for a haircut?","a":"A customer wrote in a review: “Great place to get a haircut.”"},{"q":"What do customers say overall?","a":"A customer wrote in a review: “Great barber shop”"},{"q":"What are your hours?","a":"Listings show Tuesday to Friday 8 AM to 5 PM and Saturday 8 AM to 1 PM, closed Sunday and Monday. Please call to confirm."}],"photoSources":["https://exa.ai/library/place/z1nbdc9cpgx","https://reviews.birdeye.com/scotts-barber-shop-170250116931820","Hero image: Pexels stock photo (free to use), illustrative only, not the business's own"],"images":{"hero":{"file":"hero.jpg"}},"heroStock":true,"heroPos":"30% 45%","hours":"Tue-Fri 8-5, Sat 8-1","hoursNote":"Closed Sunday and Monday. Hours from public listings, call to confirm."};</script><script src="chat.js" defer></script>
+</body></html>
