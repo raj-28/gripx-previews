@@ -16,10 +16,12 @@
   <div class="cta"><a class="btn" href="tel:+12604187241">Call (260) 418-7241</a><a class="btn btn-ghost" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Castro%20Auto%20Repair%20LLC%2C%204925%20Avondale%20Dr%2C%20Fort%20Wayne%2C%20IN%2046806">Get directions</a></div>
   <p class="note">Call to confirm today's hours.</p>
  </div>
- <aside class="hero-card" aria-label="Customer review">
-  <small>FROM A GOOGLE REVIEW</small>
-  <blockquote>&ldquo;Luis's attention to detail has my car looking brand new.&rdquo;</blockquote>
-  <svg class="gear" viewBox="0 0 100 100" aria-hidden="true"><path fill="currentColor" d="M43 4h14l2 11a36 36 0 0 1 9 3.700l9.300-6.500 10 10-6.500 9.300A36 36 0 0 1 84.500 41L96 43v14l-11.500 2a36 36 0 0 1-3.700 9l6.500 9.300-10 10-9.300-6.500a36 36 0 0 1-9 3.700L57 96H43l-2-11.500a36 36 0 0 1-9-3.700l-9.300 6.500-10-10 6.500-9.300A36 36 0 0 1 15.500 59L4 57V43l11.500-2a36 36 0 0 1 3.700-9l-6.500-9.300 10-10 9.300 6.500a36 36 0 0 1 9-3.700zM50 33a17 17 0 1 0 0 34 17 17 0 0 0 0-34z"/></svg>
+ <aside id="chat" class="chat-side" aria-label="Sample chat with Castro Auto Repair assistant">
+  <div class="ch-head"><svg class="mascot" viewBox="0 0 120 80" aria-hidden="true"><ellipse cx="60" cy="74" rx="46" ry="4" fill="#0006"/><path d="M14 54c0-9 4-14 12-17l12-17c3-4 6-6 11-6h22c6 0 9 2 12 6l12 17c9 3 13 8 13 17v8H14z" fill="var(--a)"/><path d="M42 22h36l9 15H33z" fill="#dff7ff" opacity=".9"/><circle cx="42" cy="46" r="9" fill="#fff"/><circle cx="78" cy="46" r="9" fill="#fff"/><circle cx="44" cy="47" r="4.500" fill="#080a08"/><circle cx="80" cy="47" r="4.500" fill="#080a08"/><path d="M48 60q12 9 24 0" fill="none" stroke="#080a08" stroke-width="3.500" stroke-linecap="round"/><circle cx="32" cy="70" r="11" fill="#080a08"/><circle cx="32" cy="70" r="5" fill="#aab3aa"/><circle cx="88" cy="70" r="11" fill="#080a08"/><circle cx="88" cy="70" r="5" fill="#aab3aa"/></svg><div><b>Castro Assistant</b><small><i></i>Sample chat for Castro Auto Repair</small></div></div>
+  <div class="ch-log" id="log" aria-live="polite"></div>
+  <div class="chips" id="chips"></div>
+  <form id="form" autocomplete="off"><input id="msg" maxlength="200" placeholder="Try your own question..." aria-label="Your message"><button aria-label="Send">Send</button></form>
+  <div class="ch-foot">Demo chatbot. Answers come from the shop's public details and Google reviews.</div>
  </aside>
 </div></section>
 
@@ -47,13 +49,6 @@
 </main>
 <footer><div class="wrap">Demo website built for Castro Auto Repair LLC by <a href="https://gripx.tech/">GripX</a>. Not live. Details and review quotes come from the shop's public listings.</div></footer>
 
-<aside id="chat" class="min" aria-label="Chat with Castro Auto Repair">
- <div class="ch-head"><div class="av">C</div><div><b>Castro Auto Repair</b><small><i></i>Chat assistant (demo)</small></div><button id="min" aria-label="Minimize chat">&minus;</button></div>
- <div class="ch-log" id="log" aria-live="polite"></div>
- <div class="chips" id="chips"></div>
- <form id="form" autocomplete="off"><input id="msg" maxlength="200" placeholder="Ask about the shop..." aria-label="Your message"><button aria-label="Send">Send</button></form>
- <div class="ch-foot">Demo only. Replies come from the shop's public details.</div>
-</aside>
-<button id="open" aria-label="Open chat"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg><span>Chat with the shop</span></button>
-<script>window.SHOP={"slug":"castro-auto-repair","name":"Castro Auto Repair LLC","short":"Castro Auto Repair","initial":"C","signText":"CASTRO AUTO REPAIR","neonText":"FORT WAYNE, IN","address":"4925 Avondale Dr, Fort Wayne, IN 46806","phone":"(260) 418-7241","phoneTel":"+12604187241","services":["Auto repair"],"reviews":["Luis's attention to detail has my car looking brand new.","My car is running better than it has in years."],"lat":41.038009,"lon":-85.130626};</script><script src="chat.js" defer></script>
+
+<script>window.SHOP={"slug":"castro-auto-repair","name":"Castro Auto Repair LLC","short":"Castro Auto Repair","initial":"C","signText":"CASTRO AUTO REPAIR","neonText":"FORT WAYNE, IN","address":"4925 Avondale Dr, Fort Wayne, IN 46806","phone":"(260) 418-7241","phoneTel":"+12604187241","services":["Auto repair"],"reviews":["Luis's attention to detail has my car looking brand new.","My car is running better than it has in years."],"lat":41.038009,"lon":-85.130626,"theme":{"accent":"#46f01c","ink":"#080a08","ink2":"#161b16","glow":"#12301a","accentDark":"#1a8a00","note":"from the shop's own Facebook logo: black with neon green"},"mascot":"Castro Assistant","sampleCount":2,"qa":[{"q":"My coolant is leaking and the AC isn't cold. Can you look at it?","a":"A customer wrote on Google: “Rodrigo quickly diagnosed and fixed the coolant leak and AC issues my Forester was having.” Call (260) 418-7241 and describe what your car is doing."},{"q":"Do you work on Subarus?","a":"I can't confirm every make from here. A customer wrote: “I would highly recommend this shop, especially if you are looking for a Subaru specialist.” Call (260) 418-7241 to confirm your model."},{"q":"Can you tell me what's wrong with my car?","a":"One customer wrote: “They told me I needed spark plugs and they were absolutely right.” For your car, call (260) 418-7241."},{"q":"What's the customer service like?","a":"A customer wrote: “Castro’s Auto Repair has excellent customer service, pricing, and timeliness.”"},{"q":"How much will it cost?","a":"I don't have prices and can't give a quote here. One customer wrote: “They are also affordable.” For a quote, call (260) 418-7241."},{"q":"Are you open on Saturday?","a":"I don't have confirmed hours. Please call (260) 418-7241 to check."}]};</script><script src="chat.js" defer></script>
 </body></html>
