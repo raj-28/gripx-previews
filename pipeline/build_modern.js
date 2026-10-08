@@ -40,3 +40,5 @@ fs.writeFileSync(path.join(out,'img.js'),'(function(){var M='+JSON.stringify(M)+
 if(!fs.existsSync(path.join(out,'img.js')))fs.writeFileSync(path.join(out,'img.js'),'/* no photos */');
 fs.copyFileSync('template-modern/chat.js',path.join(out,'chat.js'));
 console.log('built',out);
+if(L.revSrc){for(const f of ['index.html','chat.js']){const p=path.join(out,f);let t=fs.readFileSync(p,'utf8');t=t.split('Google reviews').join(L.revSrc+' reviews').split('Google review').join(L.revSrc+' review').split('GOOGLE REVIEW').join(L.revSrc.toUpperCase()+' REVIEW').split('Google rating').join(L.revSrc+' rating');fs.writeFileSync(p,t);}}
+if(L.noCall){const p=path.join(out,'index.html');let t=fs.readFileSync(p,'utf8');t=t.replace(/<a[^>]*href="tel:[^"]*"[^>]*>[\s\S]*?<\/a>/g,'');fs.writeFileSync(p,t);}
