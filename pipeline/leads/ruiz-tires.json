@@ -1,16 +1,80 @@
-{"slug":"ruiz-tires","kind":"tire","name":"Ruiz Tires","short":"Ruiz Tires","initial":"R",
-"address":"5410 S Hanna St, Fort Wayne, IN 46806","phone":"(260) 418-4952","phoneTel":"+12604184952","lat":41.034543,"lon":-85.127615,
-"rating":null,"reviewStars":5,
-"headline":"New and used tires in<br><em>Fort Wayne,</em> Indiana.",
-"leadText":"Ruiz Tires at 5410 S Hanna St, Fort Wayne. Customers say they find good prices on new and used tires here and get helped fast.",
-"reviews":["Excellent Business has the best service they sell New and used tires. Go check them out. They have good prices on tires.","Fast working! Kind and very professional in the job he does. He offers used and new tires!!","Gd ppl who helped us gt home safely & for gd prices ya all ND 2 see this place 4 ANY tire problems","Absolutely amazing service! Quick and friendly. Will be recommending to all my friends and family","Great price and service, cash only but best price on good decent used tires. Will be back when needing tires and on a budget"],
-"theme":{"accent":"#f2a81d","ink":"#0c2619","ink2":"#143525","glow":"#1d5236","accentDark":"#c98600","note":"from the yellow, orange and green on the shop's own logo"},
-"mascot":"Ruiz Tires Assistant","mascotKind":"tire","sampleCount":2,
-"services":[
-{"t":"New and used tires","d":"Customers say the shop sells both new and used tires at good prices.","src":"From Google reviews"},
-{"t":"Help with tire problems","d":"One customer was helped to get home safely after a tire problem.","src":"From a Google review"}],
-"qa":[{"q":"Do you sell used tires?","a":"Customers say yes. One wrote on Google: \u201CHe offers used and new tires!!\u201D Call (260) 418-4952 to ask what is in stock."},
-{"q":"Is the service fast?","a":"A customer wrote on Google: \u201CFast working! Kind and very professional in the job he does.\u201D"},
-{"q":"How can I pay?","a":"Two Google reviews mention the shop is cash only. Call (260) 418-4952 to confirm before you come."}],
-"photoSources":["https://facebook.com/101129928085733"],
-"images":{"logo":{"file":"logo.jpg","square":true},"gallery":[{"file":"logo.jpg","alt":"Ruiz Tires logo embroidered on a green cap","caption":"Ruiz Tires, from their Facebook page"}]}}
+{
+ "slug": "ruiz-tires",
+ "kind": "tire",
+ "name": "Ruiz Tires",
+ "short": "Ruiz Tires",
+ "initial": "R",
+ "address": "5410 S Hanna St, Fort Wayne, IN 46806",
+ "phone": "(260) 418-4952",
+ "phoneTel": "+12604184952",
+ "lat": 41.034543,
+ "lon": -85.127615,
+ "rating": null,
+ "reviewStars": 5,
+ "headline": "New and used tires in<br><em>Fort Wayne,</em> Indiana.",
+ "leadText": "Ruiz Tires at 5410 S Hanna St, Fort Wayne. Customers say they find good prices on new and used tires here and get helped fast.",
+ "reviews": [
+  "Excellent Business has the best service they sell New and used tires. Go check them out. They have good prices on tires.",
+  "Fast working! Kind and very professional in the job he does. He offers used and new tires!!",
+  "Gd ppl who helped us gt home safely & for gd prices ya all ND 2 see this place 4 ANY tire problems",
+  "Absolutely amazing service! Quick and friendly. Will be recommending to all my friends and family",
+  "Great price and service, cash only but best price on good decent used tires. Will be back when needing tires and on a budget"
+ ],
+ "theme": {
+  "accent": "#f2a81d",
+  "ink": "#0c2619",
+  "ink2": "#143525",
+  "glow": "#1d5236",
+  "accentDark": "#c98600",
+  "note": "from the yellow, orange and green on the shop's own logo"
+ },
+ "mascot": "Ruiz Tires Assistant",
+ "mascotKind": "tire",
+ "sampleCount": 2,
+ "services": [
+  {
+   "t": "New and used tires",
+   "d": "Customers say the shop sells both new and used tires at good prices.",
+   "src": "From Google reviews"
+  },
+  {
+   "t": "Help with tire problems",
+   "d": "One customer was helped to get home safely after a tire problem.",
+   "src": "From a Google review"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Do you sell used tires?",
+   "a": "Customers say yes. One wrote on Google: \u201cHe offers used and new tires!!\u201d Call (260) 418-4952 to ask what is in stock."
+  },
+  {
+   "q": "Is the service fast?",
+   "a": "A customer wrote on Google: \u201cFast working! Kind and very professional in the job he does.\u201d"
+  },
+  {
+   "q": "How can I pay?",
+   "a": "Two Google reviews mention the shop is cash only. Call (260) 418-4952 to confirm before you come."
+  }
+ ],
+ "photoSources": [
+  "https://facebook.com/101129928085733",
+  "Hero image: Pexels stock photo (free to use), illustrative only"
+ ],
+ "images": {
+  "logo": {
+   "file": "logo.jpg",
+   "square": true
+  },
+  "gallery": [
+   {
+    "file": "logo.jpg",
+    "alt": "Ruiz Tires logo embroidered on a green cap",
+    "caption": "Ruiz Tires, from their Facebook page"
+   }
+  ],
+  "hero": {
+   "file": "hero.jpg"
+  }
+ }
+}
