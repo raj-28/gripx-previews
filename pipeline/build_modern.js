@@ -37,5 +37,6 @@ fs.writeFileSync(path.join(out,'index.html'),sub(fs.readFileSync('template-moder
 const css=fs.readFileSync('template-modern/style.css','utf8').split('#ffd23f').join(TH.accent).split('#14171c').join(TH.ink).split('#262c36').join(TH.ink2).split('#2a3140').join(TH.glow).split('#b07d00').join(TH.accentDark).replace('--a:'+TH.accent,'--a:'+TH.accent);
 fs.writeFileSync(path.join(out,'style.css'),css);if(fs.existsSync(AS)){const M={};const {execSync}=require('child_process');for(const f of fs.readdirSync(AS)){const t='/tmp/_s_'+f;const mx=/hero|shop/.test(f)?1000:(/logo/.test(f)?160:640);execSync('python3 -c "from PIL import Image;im=Image.open(\''+path.join(AS,f)+'\').convert(\'RGB\');im.thumbnail(('+mx+','+mx+'));im.save(\''+t+'\',quality=62,optimize=True)"');M[f]='data:image/jpeg;base64,'+fs.readFileSync(t).toString('base64');}
 fs.writeFileSync(path.join(out,'img.js'),'(function(){var M='+JSON.stringify(M)+';document.querySelectorAll("[data-img]").forEach(function(e){e.src=M[e.getAttribute("data-img")]});document.querySelectorAll("[data-hero]").forEach(function(e){e.style.setProperty("--hero","url("+M[e.getAttribute("data-hero")]+")")})})();');}
+if(!fs.existsSync(path.join(out,'img.js')))fs.writeFileSync(path.join(out,'img.js'),'/* no photos */');
 fs.copyFileSync('template-modern/chat.js',path.join(out,'chat.js'));
 console.log('built',out);
