@@ -6,7 +6,9 @@
  <a class="logo" href="#top"><span class="mark">F</span><span>Femi Eyebrows</span></a>
  <nav><div class="dd"><a href="#services">Services <span class="car">&#9662;</span></a><div class="menu"><a href="#services">Eyebrow threading</a><a href="#services">Eyebrow tinting</a><a href="#services">Henna</a><a href="#services">Eyelash extensions</a></div></div><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
  
-</div></header></div>
+ <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" onclick="var m=document.getElementById('mnav');var o=m.classList.toggle('on');this.classList.toggle('on',o);this.setAttribute('aria-expanded',o)"><i></i><i></i><i></i></button>
+</div></header>
+<div id="mnav" onclick="this.classList.remove('on');document.getElementById('burger').classList.remove('on')"><a href="#top">Home</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#visit">Contact</a></div></div>
 <main id="top">
 <section class="hero has-img" data-hero="logo.jpg"><div class="wrap hero-in">
  <div class="hero-copy">
