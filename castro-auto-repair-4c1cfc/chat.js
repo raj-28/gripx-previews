@@ -23,3 +23,4 @@ function send(text){msg.value='';chips.style.display='none';add('me',text);var t
  var rep=fallback;for(var i=0;i<rules.length;i++){if(rules[i][0].test(text)){rep=rules[i][1];break}}
  setTimeout(function(){t.remove();add('bot',rep)},650)}
 })();
+(function(){var o=document.getElementById('open');function t(){o.classList.toggle('late',window.scrollY>500)}addEventListener('scroll',t,{passive:true});t()})();
