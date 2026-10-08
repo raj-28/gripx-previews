@@ -1,0 +1,18 @@
+{"slug":"paco-buffet","kind":"restaurant","name":"Paco's Buffet","short":"Paco's Buffet","initial":"P",
+"address":"1531 Goshen Ave, Fort Wayne, IN 46808","phone":"(260) 209-3969","phoneTel":"+12602093969","lat":41.101256,"lon":-85.162979,
+"rating":null,"reviewStars":5,
+"headline":"Mexican buffet in<br><em>Fort Wayne,</em> all you can eat.",
+"leadText":"Paco's Buffet at 1531 Goshen Ave, Fort Wayne. Customers say fresh, authentic dishes, friendly service and a big parking lot.",
+"reviews":["This Mexican buffet was absolutely amazing! The food was delicious, full of flavor, and there were so many great options to choose from. Everything tasted fresh and authentic.","We loved the buffet, always wanted a Mexican food buffet. Good options and adding more daily. Found our new fav spot.","Great price for everything I got. Incredibly nice service. Very clean. Fresh food (and that's with going for a late dinner). Same quality as you would get at most Mexican restaurants in town but at a buffet.","Top notch, not your typical buffet food, authentic as it gets, did not disappoint."],
+"theme":{"accent":"#e63b3f","ink":"#0b0f0c","ink2":"#142018","glow":"#1f4d2c","accentDark":"#b02226","note":"red and green from the restaurant's own logo"},
+"mascot":"Paco's Assistant","mascotKind":"chef","sampleCount":2,
+"services":[
+{"t":"All-you-can-eat Mexican buffet","d":"Customers describe a wide spread of hot, fresh dishes, with more added daily.","src":"From Google reviews"},
+{"t":"Soups and stews","d":"Reviews name caldo de res, albondigas and all-you-can-eat menudo.","src":"From Google reviews"},
+{"t":"Birria, tamales and more","d":"Reviews name birria (goat or beef), tamales, quesadillas, flautas, chips and queso.","src":"From a Google review"},
+{"t":"Table service","d":"Customers mention a greeter and servers who bring drinks and tortillas for tacos.","src":"From Google reviews"}],
+"qa":[{"q":"What is on the buffet?","a":"A customer wrote on Google: \u201CCaldo de res, albondigas, birria goat or beef, tamales, quesadillas, chips and queso, flautas.\u201D Menu changes, so call (260) 209-3969."},
+{"q":"Is the food fresh?","a":"A customer wrote on Google: \u201CEverything tasted fresh and authentic.\u201D"},
+{"q":"Is there parking?","a":"A customer wrote on Google that the location is easy to find, \u201Cwith a huge parking lot.\u201D"}],
+"photoSources":["https://facebook.com/437211053708435","Hero image: Pexels stock photo (free to use), illustrative only, not the restaurant's own food"],
+"images":{"hero":{"file":"hero.jpg"}}}
