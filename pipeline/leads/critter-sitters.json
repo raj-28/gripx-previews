@@ -1,19 +1,91 @@
-{"slug":"critter-sitters","kind":"pet","name":"Critter Sitters","short":"Critter Sitters","initial":"C","revSrc":"Nextdoor",
-"address":"716 Kinnaird Ave, Fort Wayne, IN 46807","phone":"(574) 309-3634","phoneTel":"+15743093634","lat":41.0476,"lon":-85.1457,
-"rating":null,"reviewStars":0,
-"headline":"Pet sitting in<br><em>Fort Wayne,</em> with daily photo updates.",
-"leadText":"Critter Sitters at 716 Kinnaird Ave, Fort Wayne. Dogs, cats and small animals, looked after by a sitter neighbors recommend on Nextdoor.",
-"reviews":["She sends pics of the pups while you're away, she texts back quickly, and my dogs are happy/rested/good mannered when I pick them up.","She did an amazing job with our zoo (8 cats, a foster dog, fish, and our bearded dragon). She sent daily updates (with pictures), was super responsive, took great care of our house (she even took care of our plants).","Extremely knowledgeable about many different types of animals and aspects of their care. Flexible with scheduling, and extremely reliable AND dependable. No matter the size of your pet big OR small the amount of love given to them is always equal."],
-"theme":{"accent":"#3b82d6","ink":"#0e1b2c","ink2":"#16283f","glow":"#1d3b63","accentDark":"#2563b0","note":"from the blue leash and navy clothing in the business's own Nextdoor photo"},
-"mascot":"Critter Sitters Assistant","mascotKind":"paw","sampleCount":2,
-"services":[
-{"t":"Pet sitting and house sitting","d":"Neighbors describe stays where the pets and the home, even the plants, were looked after.","src":"From Nextdoor recommendations"},
-{"t":"Dog boarding and pet sitting","d":"A neighbor says their dogs came home happy and rested.","src":"From a Nextdoor recommendation"},
-{"t":"Care for cats, fish and exotic pets","d":"A recommendation mentions 8 cats, fish and a bearded dragon looked after in one stay.","src":"From a Nextdoor recommendation"},
-{"t":"Daily updates with pictures","d":"Sitter sends photos and updates while you are away.","src":"From Nextdoor recommendations"},
-{"t":"Medication, nail trims, baths and minor grooming","d":"Listed on the business's Nextdoor page, where applicable to the pet.","src":"From the Nextdoor business page"}],
-"qa":[{"q":"Will I get updates while I'm away?","a":"A neighbor wrote on Nextdoor: \u201CShe sent daily updates (with pictures), was super responsive.\u201D Call (574) 309-3634 to ask about your pet."},
-{"q":"Can you look after cats and small animals too?","a":"A Nextdoor recommendation mentions 8 cats, a foster dog, fish and a bearded dragon in one stay. Call (574) 309-3634 to ask about your pet."},
-{"q":"Are the dogs happy when I pick them up?","a":"A neighbor wrote: \u201Cmy dogs are happy/rested/good mannered when I pick them up.\u201D"}],
-"photoSources":["https://nextdoor.com/pages/critter-sitters-emery-merriman/"],
-"images":{"hero":{"file":"logo.jpg"},"gallery":[{"file":"logo.jpg","alt":"A sitter on a porch with a large black dog","caption":"From the business's Nextdoor page"}]}}
+{
+ "slug": "critter-sitters",
+ "kind": "pet",
+ "name": "Critter Sitters",
+ "short": "Critter Sitters",
+ "initial": "C",
+ "revSrc": "Nextdoor",
+ "address": "716 Kinnaird Ave, Fort Wayne, IN 46807",
+ "phone": "(574) 309-3634",
+ "phoneTel": "+15743093634",
+ "lat": 41.0476,
+ "lon": -85.1457,
+ "rating": null,
+ "reviewStars": 0,
+ "headline": "Pet sitting in<br><em>Fort Wayne,</em> with daily photo updates.",
+ "leadText": "Critter Sitters at 716 Kinnaird Ave, Fort Wayne. Dogs, cats and small animals, looked after by a sitter neighbors recommend on Nextdoor.",
+ "reviews": [
+  "She sends pics of the pups while you're away, she texts back quickly, and my dogs are happy/rested/good mannered when I pick them up.",
+  "She did an amazing job with our zoo (8 cats, a foster dog, fish, and our bearded dragon). She sent daily updates (with pictures), was super responsive, took great care of our house (she even took care of our plants).",
+  "Extremely knowledgeable about many different types of animals and aspects of their care. Flexible with scheduling, and extremely reliable AND dependable. No matter the size of your pet big OR small the amount of love given to them is always equal."
+ ],
+ "theme": {
+  "accent": "#3b82d6",
+  "ink": "#0e1b2c",
+  "ink2": "#16283f",
+  "glow": "#1d3b63",
+  "accentDark": "#2563b0",
+  "note": "from the blue leash and navy clothing in the business's own Nextdoor photo"
+ },
+ "mascot": "Critter Sitters Assistant",
+ "mascotKind": "paw",
+ "sampleCount": 2,
+ "services": [
+  {
+   "t": "Pet sitting and house sitting",
+   "d": "Neighbors describe stays where the pets and the home, even the plants, were looked after.",
+   "src": "From Nextdoor recommendations"
+  },
+  {
+   "t": "Dog boarding and pet sitting",
+   "d": "A neighbor says their dogs came home happy and rested.",
+   "src": "From a Nextdoor recommendation"
+  },
+  {
+   "t": "Care for cats, fish and exotic pets",
+   "d": "A recommendation mentions 8 cats, fish and a bearded dragon looked after in one stay.",
+   "src": "From a Nextdoor recommendation"
+  },
+  {
+   "t": "Daily updates with pictures",
+   "d": "Sitter sends photos and updates while you are away.",
+   "src": "From Nextdoor recommendations"
+  },
+  {
+   "t": "Medication, nail trims, baths and minor grooming",
+   "d": "Listed on the business's Nextdoor page, where applicable to the pet.",
+   "src": "From the Nextdoor business page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Will I get updates while I'm away?",
+   "a": "A neighbor wrote on Nextdoor: \u201cShe sent daily updates (with pictures), was super responsive.\u201d Call (574) 309-3634 to ask about your pet."
+  },
+  {
+   "q": "Can you look after cats and small animals too?",
+   "a": "A Nextdoor recommendation mentions 8 cats, a foster dog, fish and a bearded dragon in one stay. Call (574) 309-3634 to ask about your pet."
+  },
+  {
+   "q": "Are the dogs happy when I pick them up?",
+   "a": "A neighbor wrote: \u201cmy dogs are happy/rested/good mannered when I pick them up.\u201d"
+  }
+ ],
+ "photoSources": [
+  "https://nextdoor.com/pages/critter-sitters-emery-merriman/",
+  "Hero image: Unsplash stock photo, illustrative only"
+ ],
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  },
+  "gallery": [
+   {
+    "file": "logo.jpg",
+    "alt": "A sitter on a porch with a large black dog",
+    "caption": "From the business's Nextdoor page"
+   }
+  ]
+ },
+ "heroStock": true
+}
