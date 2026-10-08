@@ -1,0 +1,133 @@
+{
+ "slug": "georges-auto-repair",
+ "name": "George's Auto Repair",
+ "short": "George's Auto Repair",
+ "initial": "G",
+ "address": "1624 Spy Run Ave, Fort Wayne, IN 46805",
+ "phone": "(260) 422-7015",
+ "phoneTel": "+12604227015",
+ "lat": 41.089108,
+ "lon": -85.134312,
+ "serviceTitle": "Auto and light truck service and repairs",
+ "serviceText": "Cars and light trucks. Call (260) 422-7015 and describe what your vehicle is doing.",
+ "rating": {
+  "value": "4.8",
+  "count": "75"
+ },
+ "reviews": [
+  "Excellent Service and nice staffs. I trust their services. The best mechanic in Fort Wayne, I think.",
+  "They have always done good work with a fair price. They always stand behind the work they do.",
+  "If you need your car or truck fixed... hands down, I'd recommend George's. Employees were helpful, polite, and accommodating. Prices are reasonable.",
+  "I recommend George’s Auto to anyone I know. They do excellent, and timely work. Very honest mechanics. Also, they have loaner cars or will offer you a ride home, if the job will take several hours."
+ ],
+ "theme": {
+  "accent": "#f5bd00",
+  "ink": "#0f2a45",
+  "ink2": "#1b3d5f",
+  "glow": "#24507a",
+  "accentDark": "#8a6100",
+  "note": "from the shop's logo and storefront: navy blue, red and gold/yellow"
+ },
+ "mascot": "George's Assistant",
+ "sampleCount": 2,
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  },
+  "logo": {
+   "file": "logo.jpg",
+   "square": true
+  },
+  "gallery": [
+   {
+    "file": "storefront.jpg",
+    "alt": "George's Auto Repair storefront with a yellow convertible out front",
+    "caption": "The shop on Spy Run Ave"
+   },
+   {
+    "file": "bluecar.jpg",
+    "alt": "Light blue classic car inside the shop",
+    "caption": "Inside the shop",
+    "tall": true
+   },
+   {
+    "file": "lift.jpg",
+    "alt": "Classic car raised on a lift",
+    "caption": "On the lift"
+   },
+   {
+    "file": "engine.jpg",
+    "alt": "Engine with red spark plug wires",
+    "caption": "Engine work"
+   },
+   {
+    "file": "brakes.jpg",
+    "alt": "Under a vehicle in the shop",
+    "caption": "Under the car"
+   }
+  ]
+ },
+ "qa": [
+  {
+   "q": "Do you have loaner cars, or can I get a ride home?",
+   "a": "A customer wrote on Google: “Also, they have loaner cars or will offer you a ride home, if the job will take several hours.” Call (260) 422-7015 to ask about your job."
+  },
+  {
+   "q": "A dealership gave me a diagnosis. Can you take a second look?",
+   "a": "One customer wrote: “I took my 2007 F-150 in after getting an inaccurate diagnosis from a local (not Ford) dealership. The mechanic at George’s was able to quickly diagnose the issue.” Call (260) 422-7015 and describe what your vehicle is doing."
+  },
+  {
+   "q": "Are the mechanics honest?",
+   "a": "Customers say so. One wrote: “Very honest mechanics.” Another: “...was honest and told me the repairs would cost more than the vehicle was worth.”"
+  },
+  {
+   "q": "Do you work on trucks?",
+   "a": "The shop describes itself as auto and light truck service and repairs. A customer wrote: “If you need your car or truck fixed... hands down, I'd recommend George's.” Call (260) 422-7015 to confirm your vehicle."
+  },
+  {
+   "q": "What's the customer service like?",
+   "a": "A customer wrote: “Employees were helpful, polite, and accommodating.”"
+  },
+  {
+   "q": "How much will it cost?",
+   "a": "I don't have prices and can't give a quote here. One customer wrote: “They have always done good work with a fair price.” For a quote, call (260) 422-7015."
+  },
+  {
+   "q": "Are you open on Saturday?",
+   "a": "I don't have confirmed hours. Please call (260) 422-7015 to check."
+  }
+ ],
+ "reviewStars": 5,
+ "services": [
+  {
+   "t": "Auto and light truck service and repairs",
+   "d": "The shop's own description of what it does. Cars and light trucks.",
+   "src": "Source: the shop's Facebook page"
+  },
+  {
+   "t": "Diagnostics",
+   "d": "Customers describe quick, careful diagnosis, including for check engine codes on older vehicles.",
+   "src": "From Google reviews"
+  },
+  {
+   "t": "Heating and A/C controls",
+   "d": "One customer had an F-150 HVAC problem quickly diagnosed after a dealership's diagnosis was wrong, and a fix suggested.",
+   "src": "From a Google review"
+  },
+  {
+   "t": "Estimates and second opinions",
+   "d": "Customers mention the shop spending time explaining the issue and offering cost-effective options.",
+   "src": "From Google reviews"
+  },
+  {
+   "t": "Loaner cars and rides home",
+   "d": "For longer jobs, a customer says the shop has loaner cars or will offer a ride home. Call to ask about your job.",
+   "src": "From a Google review"
+  }
+ ],
+ "kind": "auto",
+ "photoSources": [
+  "https://www.loc8nearme.com/indiana/fort-wayne/georges-auto-repair/4357449/",
+  "https://www.facebook.com/148018411885095"
+ ]
+}
