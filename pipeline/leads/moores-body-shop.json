@@ -1,0 +1,93 @@
+{
+ "slug": "moores-body-shop",
+ "kind": "auto",
+ "name": "Moore's Body Shop",
+ "short": "Moore's Body Shop",
+ "initial": "M",
+ "address": "3539 N St Joseph Ave, Evansville, IN 47720",
+ "phone": "(812) 425-8659",
+ "phoneTel": "+18124258659",
+ "lat": 38.0115785,
+ "lon": -87.59938919999999,
+ "rating": {
+  "value": "4.8",
+  "count": "40"
+ },
+ "reviewStars": 5,
+ "headline": "Auto body repair in<br><em>Evansville,</em> Indiana.",
+ "leadText": "Moore's Body Shop at 3539 N St Joseph Ave, Evansville. Customers say careful repairs, clear updates and help with insurance.",
+ "reviews": [
+  "Super nice and knowledgeable. They did an amazing job on my car and left it clean!",
+  "The work was easily scheduled and completed on time, and the price I paid was outstanding!",
+  "The staff was extremely friendly and helpful they kept me updated on repairs",
+  "He gave me updates along the way with progress photos."
+ ],
+ "theme": {
+  "accent": "#ff6b35",
+  "ink": "#0f1115",
+  "ink2": "#171b22",
+  "glow": "#2a3d57",
+  "accentDark": "#c94a1a",
+  "note": "orange on the dark blue-grey body shop photo"
+ },
+ "mascot": "Moore's Body Shop Assistant",
+ "mascotKind": "car",
+ "sampleCount": 2,
+ "hours": "Mon-Fri 8-5",
+ "hoursNote": "Closed Saturday and Sunday. Hours from the shop's Facebook and Carwise, call to confirm.",
+ "services": [
+  {
+   "t": "Body and collision repair",
+   "d": "Customers describe door, tail light and storm and deer damage repairs.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Free estimates",
+   "d": "Listed by Carwise.",
+   "src": "From Carwise listing"
+  },
+  {
+   "t": "Insurance assistance",
+   "d": "Listed by Carwise; a customer says they helped navigate insurance.",
+   "src": "From Carwise listing and reviews"
+  },
+  {
+   "t": "Paintless dent repair",
+   "d": "Listed by Carwise.",
+   "src": "From Carwise listing"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Do you help with insurance?",
+   "a": "A customer wrote in a review: “helped us navigate insurance, repairs, post-insurance nonsense and more.”"
+  },
+  {
+   "q": "Will I get updates?",
+   "a": "A customer wrote in a review: “He gave me updates along the way with progress photos.”"
+  },
+  {
+   "q": "Do you take cards?",
+   "a": "A customer wrote in a review: “they don't accept debit or credit cards.” That review is from 2018, so please call to check."
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Monday to Friday 8 AM to 5 PM, closed weekends, per the shop's Facebook and Carwise. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://exa.ai/library/place/kcvh2zxw4k4",
+  "https://www.carwise.com (free estimates, insurance assistance, paintless dent repair)",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business's own"
+ ],
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "heroPos": "50% 22%",
+ "enquiryTitle": "Tell the shop about your vehicle and damage.",
+ "enquiryLabel": "Vehicle (year, make, model) and what happened",
+ "enquiryNote": "This is a request form only. It does not give an estimate or book a repair."
+}
