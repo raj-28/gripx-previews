@@ -1,0 +1,68 @@
+{
+ "slug": "miller-time-mechanics",
+ "kind": "auto",
+ "name": "Miller-Time Mechanics",
+ "short": "Miller-Time Mechanics",
+ "initial": "M",
+ "address": "806 N 14th St, Vincennes, IN 47591",
+ "phone": "(812) 890-7676",
+ "phoneTel": "+18128907676",
+ "lat": 38.674265,
+ "lon": -87.516483,
+ "rating": null,
+ "reviewStars": 5,
+ "headline": "Automotive repairs in<br><em>Vincennes,</em> Indiana.",
+ "leadText": "Miller-Time Mechanics at 806 N 14th St, Vincennes. A local shop doing automotive repairs, with recent work posted on its Facebook page.",
+ "reviews": [
+  "good"
+ ],
+ "theme": {
+  "accent": "#f2b134",
+  "ink": "#0f1114",
+  "ink2": "#171b20",
+  "glow": "#24415c",
+  "accentDark": "#b9810f",
+  "note": "amber against the blue shop photo"
+ },
+ "mascot": "Miller-Time Mechanics Assistant",
+ "mascotKind": "car",
+ "sampleCount": 2,
+ "hours": "Mon-Fri 9-5",
+ "hoursNote": "Closed Saturday and Sunday. Hours from the shop's Facebook and listings, call to confirm.",
+ "services": [
+  {
+   "t": "Automotive repairs",
+   "d": "Listed as an automotive repair shop and described that way on the shop's Facebook page.",
+   "src": "From the shop's Facebook page and listing"
+  }
+ ],
+ "qa": [
+  {
+   "q": "What do you work on?",
+   "a": "The shop's page describes automotive repairs. Call to ask about your vehicle and problem."
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Monday to Friday 9 AM to 5 PM, closed weekends, per the shop's Facebook and listings. Please call to confirm."
+  },
+  {
+   "q": "What does it cost?",
+   "a": "No prices are published, so please call or send a request and the shop can tell you."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/MillerTimeMechanicsLLC/",
+  "https://exa.ai/library/place/b0vy3tvhhkx",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business's own"
+ ],
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "heroPos": "50% 28%",
+ "enquiryTitle": "Tell the shop about your vehicle and the problem.",
+ "enquiryLabel": "Vehicle (year, make, model) and what is wrong",
+ "enquiryNote": "This is a request form only. It does not give a quote or book an appointment."
+}
