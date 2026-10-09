@@ -1,0 +1,93 @@
+{
+ "slug": "dyer-and-sons-automotive",
+ "kind": "auto",
+ "name": "Dyer & Sons Automotive",
+ "short": "Dyer & Sons",
+ "initial": "D",
+ "address": "4914 Speedway Dr, Fort Wayne, IN 46825",
+ "phone": "(260) 471-3937",
+ "phoneTel": "+12604713937",
+ "lat": 41.12328,
+ "lon": -85.142458,
+ "rating": {
+  "value": "5.0",
+  "count": "142"
+ },
+ "reviewStars": 5,
+ "headline": "Auto repair in<br><em>Fort Wayne,</em> from maintenance to engine work.",
+ "leadText": "Dyer & Sons Automotive at 4914 Speedway Dr, Fort Wayne. Customers call it an honest, family-owned shop with fair prices.",
+ "reviews": [
+  "Hands down the best mechanic I've ever had work on any of my vehicles.",
+  "The prices are fair and honest. The work is exceptional.",
+  "This is a super honest, family-owned shop.",
+  "did a complete inspection on my truck and listed everything in order of importance."
+ ],
+ "theme": {
+  "accent": "#e8504a",
+  "ink": "#0f1012",
+  "ink2": "#181a1d",
+  "glow": "#3a2a28",
+  "accentDark": "#b5342f",
+  "note": "red on the dark underbody photo"
+ },
+ "mascot": "Dyer & Sons Assistant",
+ "mascotKind": "car",
+ "sampleCount": 2,
+ "hours": "Mon-Fri 8-5",
+ "hoursNote": "Closed Saturday and Sunday. Hours from the shop's Facebook and listings, call to confirm.",
+ "services": [
+  {
+   "t": "Basic maintenance to major engine repair",
+   "d": "From the shop's own Facebook post.",
+   "src": "From the shop's Facebook page"
+  },
+  {
+   "t": "Vehicle inspections",
+   "d": "A customer describes a complete inspection listed in order of importance.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Diagnosis",
+   "d": "A customer says their car was diagnosed and explained quickly.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Brake checks",
+   "d": "A customer says the shop checked their brake pads and told them what was needed.",
+   "src": "From customer reviews"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Are the prices fair?",
+   "a": "A customer wrote in a review: “The prices are fair and honest.”"
+  },
+  {
+   "q": "Do you do inspections?",
+   "a": "A customer wrote in a review: “did a complete inspection on my truck and listed everything in order of importance.”"
+  },
+  {
+   "q": "Is it family owned?",
+   "a": "A customer wrote in a review: “This is a super honest, family-owned shop.”"
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Monday to Friday 8 AM to 5 PM, closed weekends. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/people/Dyer-Sons-Automotive-Inc/100063686330734/",
+  "https://exa.ai/library/place/38lc2shzf8y",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business's own"
+ ],
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "heroPos": "72% 62%",
+ "enquiryTitle": "Tell the shop about your vehicle and the problem.",
+ "enquiryLabel": "Vehicle (year, make, model) and what you need",
+ "enquiryNote": "This is a request form only. It does not give a quote or book an appointment."
+}
