@@ -1,0 +1,97 @@
+{
+ "slug": "arts-alignment-auto-repair",
+ "kind": "auto",
+ "name": "Arts Alignment & Auto Repair",
+ "short": "Arts Alignment",
+ "initial": "A",
+ "address": "2001 Allens Ln, Evansville, IN 47720",
+ "phone": "(812) 424-6955",
+ "phoneTel": "+18124246955",
+ "lat": 38.0079779,
+ "lon": -87.5922465,
+ "rating": {
+  "value": "4.9",
+  "count": "29"
+ },
+ "reviewStars": 5,
+ "headline": "Alignment and auto repair in<br><em>Evansville,</em> Indiana.",
+ "leadText": "Arts Alignment & Auto Repair at 2001 Allens Ln, Evansville. Customers say honest pricing, clear explanations and alignments that fix the drive.",
+ "reviews": [
+  "Great job installing a ball joint and doing an alignment on my 83 mustang. It drives great!",
+  "He broke down each cost so you understood what you were paying for.",
+  "I feel so much safer in my car now with new brakes!!",
+  "We just had an alignment done on our 1992 Chevy GMT-400 and it drives like a dream now."
+ ],
+ "theme": {
+  "accent": "#4fc3f7",
+  "ink": "#0b1118",
+  "ink2": "#121b26",
+  "glow": "#1f3a5c",
+  "accentDark": "#2a8fc0",
+  "note": "blue from the mechanic's coveralls in the hero photo"
+ },
+ "mascot": "Arts Alignment Assistant",
+ "mascotKind": "car",
+ "sampleCount": 2,
+ "hours": "Mon-Fri 8-4",
+ "hoursNote": "Closed Saturday and Sunday. Hours from the shop's own page and listings, call to confirm.",
+ "services": [
+  {
+   "t": "Wheel alignment",
+   "d": "Customers describe alignments on classic and daily cars.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Suspension and ball joints",
+   "d": "A customer had a ball joint installed.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Complete auto repair",
+   "d": "From the shop's own introduction.",
+   "src": "From the shop's own page"
+  },
+  {
+   "t": "Brakes, tires and maintenance",
+   "d": "From the shop's own introduction; a customer mentions new brakes.",
+   "src": "From the shop's own page and reviews"
+  },
+  {
+   "t": "A/C charge and check-engine diagnosis",
+   "d": "From the shop's own introduction.",
+   "src": "From the shop's own page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Do you do alignments?",
+   "a": "A customer wrote in a review: “doing an alignment on my 83 mustang. It drives great!”"
+  },
+  {
+   "q": "Is pricing clear?",
+   "a": "A customer wrote in a review: “He broke down each cost so you understood what you were paying for.”"
+  },
+  {
+   "q": "Do you do brakes?",
+   "a": "A customer wrote in a review: “I feel so much safer in my car now with new brakes!!”"
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Monday to Friday 8 AM to 4 PM, closed weekends. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://exa.ai/library/place/xk11xf3z9dt",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business's own"
+ ],
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "heroPos": "68% 55%",
+ "enquiryTitle": "Tell the shop what your vehicle needs.",
+ "enquiryLabel": "Vehicle (year, make, model) and the service you need",
+ "enquiryNote": "This is a request form only. It does not give a diagnosis or book an appointment."
+}
