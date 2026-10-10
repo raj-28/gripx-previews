@@ -1,0 +1,91 @@
+{
+ "slug": "shear-and-shine",
+ "kind": "pet",
+ "name": "Shear and Shine",
+ "short": "Shear and Shine",
+ "initial": "S",
+ "address": "85 Weaverville Rd, Asheville, NC 28804",
+ "phone": "(828) 252-2593",
+ "phoneTel": "+18282522593",
+ "lat": 35.641375,
+ "lon": -82.578898,
+ "rating": {
+  "value": "4.9",
+  "count": "140"
+ },
+ "headline": "Pet grooming in<br><em>Asheville.</em>",
+ "leadText": "Shear and Shine at 85 Weaverville Rd, Asheville. Directory listings say the shop grooms dogs and cats. Customers say friendly groomers, patient handling and beautiful results.",
+ "reviews": [
+  "Great place to take your fur babies.",
+  "Hands down, the best place that I've had my dog groomed.",
+  "Shear-N-Shine did an amazing job grooming my Bichon, Buddy",
+  "Very accommodating and friendly. Groomer did an amazing job.",
+  "the staff was so sweet and professional with him!"
+ ],
+ "theme": {
+  "accent": "#4ec9b0",
+  "ink": "#101313",
+  "ink2": "#191d1c",
+  "glow": "#263a35",
+  "accentDark": "#379e89",
+  "note": "teal on the dark grooming photo"
+ },
+ "mascot": "Shear and Shine Assistant",
+ "mascotKind": "paw",
+ "sampleCount": 2,
+ "hours": "Tue-Sat 9-6",
+ "hoursNote": "Closed Sunday and Monday. Shop hours from directory listings, call to confirm. Walk-in nail trimming runs Tuesday to Saturday 9 AM to 3 PM, from the shop’s Facebook.",
+ "services": [
+  {
+   "t": "Dog grooming",
+   "d": "Customers praise grooms for dogs of many breeds.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Cat grooming",
+   "d": "A customer describes an emergency clean-up for a very furry cat.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Walk-in nail trimming",
+   "d": "Tuesday to Saturday 9 AM to 3 PM, from the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the shop?",
+   "a": "85 Weaverville Rd, Asheville, NC 28804."
+  },
+  {
+   "q": "Do you groom cats?",
+   "a": "A customer wrote in a review: “Shear and shine is the best. They got me in for an immediate potty patch for my very furry cat who was in emergency need of being cleaned up.”"
+  },
+  {
+   "q": "Do I need an appointment for nail trimming?",
+   "a": "The shop’s Facebook page says nail trimming is walk-in, Tuesday to Saturday 9 AM to 3 PM. Other shop hours are Tuesday to Saturday 9 AM to 6 PM per directory listings. Please call to confirm."
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Directory listings show Tuesday to Saturday 9 AM to 6 PM, closed Sunday and Monday. Walk-in nail trimming is 9 AM to 3 PM per the shop’s Facebook. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/Shearandshine/",
+  "https://www.loc8nearme.com/north-carolina/asheville/shear-n-shine/5534901/",
+  "https://exa.ai/library/place/c5mzv2kynhs",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 45%",
+ "enquiryTitle": "Ask the shop about grooming for your pet.",
+ "enquiryLabel": "Your pet (breed, size) and what you would like (groom, bath, nail trim)",
+ "enquiryNote": "This is a request form only. It does not book an appointment.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "revSrc": "online",
+ "hoursStrip": "Tue-Sat 9-6 (directory - call to confirm)"
+}
