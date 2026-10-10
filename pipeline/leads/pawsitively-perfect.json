@@ -1,0 +1,71 @@
+{
+  "slug": "pawsitively-perfect",
+  "kind": "pet",
+  "name": "Pawsitively Perfect",
+  "short": "Pawsitively Perfect",
+  "initial": "P",
+  "address": "7711 W 151st St, Overland Park, KS",
+  "phone": "(913) 345-8245",
+  "phoneTel": "+19133458245",
+  "lat": 0,
+  "lon": 0,
+  "headline": "Grooming and boarding<br>in <em>Overland Park.</em>",
+  "leadText": "Pawsitively Perfect at 7711 W 151st St, Overland Park. Dog and cat grooming and boarding with personalized service, per its own page.",
+  "reviews": [],
+  "theme": {
+    "accent": "#5ec8b7",
+    "ink": "#101312",
+    "ink2": "#181d1c",
+    "glow": "#27393a",
+    "accentDark": "#3fa191",
+    "note": "teal on the grooming photo"
+  },
+  "mascot": "Pawsitively Perfect Assistant",
+  "mascotKind": "paw",
+  "sampleCount": 2,
+  "services": [
+    {
+      "t": "Dog and cat grooming",
+      "d": "Grooming for both dogs and cats, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Boarding",
+      "d": "Pet boarding, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Personalized service",
+      "d": "The shop emphasizes personalized service for each pet.",
+      "src": "From the shop's own page"
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where is the salon?",
+      "a": "7711 W 151st St, Overland Park, KS."
+    },
+    {
+      "q": "Do they board pets?",
+      "a": "Yes - boarding is one of the services on the shop's own page."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "Hours aren't published in the listings we checked - please call (913) 345-8245 to confirm."
+    }
+  ],
+  "enquiryTitle": "Ask Pawsitively Perfect anything.",
+  "enquiryLabel": "What do you need?",
+  "enquiryNote": "Or reach the shop directly: call (913) 345-8245.",
+  "heroStock": true,
+  "heroPos": "center 35%",
+  "images": {
+    "hero": {
+      "file": "hero.jpg"
+    }
+  },
+  "photoSources": [
+    "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+  ],
+  "hoursNote": "Call to confirm today's hours."
+}
