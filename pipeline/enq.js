@@ -1,6 +1,7 @@
 const fs=require('fs'),path=require('path');const L=JSON.parse(fs.readFileSync(process.argv[2]));const out='out/'+L.slug;
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
 const sec=`<section id="enquiry" class="sec alt"><div class="wrap"><p class="eyebrow dark">REQUEST</p><h2>${esc(L.enquiryTitle)}</h2>
+<p class="enqnote">Demo only: this form sends nothing. On the live site it would send your request to the shop, and they would follow up. No quote or appointment is confirmed.</p>
 <form class="enq" onsubmit="event.preventDefault();var b=this.querySelector('.enqmsg');b.hidden=false;b.textContent='Demo only: this form sends nothing. On the live site it would send your request to the shop, and they would follow up. No quote or appointment is confirmed.';">
 <label>Name<input required name="n" autocomplete="name"></label>
 <label>Phone<input required name="p" inputmode="tel" autocomplete="tel"></label>
