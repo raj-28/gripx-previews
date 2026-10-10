@@ -1,0 +1,70 @@
+import json, sys
+# Hoosier Barber Shop (BL-001, Staging row 7). Restrictions: no ratings (Exa 4.6/121 vs Yelp 4.0/12
+# not comparable), directory-sourced hours marked as such, no prices, no booking/availability claims.
+listing = open('/tmp/hoosier_sources.md').read()
+reviews = [
+ "This is the only place in town I will go!",
+ "Great haircuts for me and my son at Hoosier Barber Shop!",
+ "Great atmosphere, great people, great cut!!!",
+ "I took my elderly father in for a straight-razor shave and Jay did a fantastic job.",
+ "The cut is always right, to the point where I don't even look at it in the mirror before getting up",
+]
+for r in reviews:
+    assert r in listing, 'quote not in fetched listing text: ' + r
+for fact in ["908 N Walnut St", "hoosierbarber@gmail.com", "+18123320444", "Haircut and shave", "Shave only"]:
+    assert fact in listing, 'fact not in fetched listing text: ' + fact
+d = {
+ "slug": "hoosier-barber-shop",
+ "kind": "barber",
+ "name": "Hoosier Barber Shop",
+ "short": "Hoosier Barber",
+ "initial": "H",
+ "address": "908 N Walnut St, Bloomington, IN 47404",
+ "phone": "(812) 332-0444",
+ "phoneTel": "+18123320444",
+ "lat": 39.174595,
+ "lon": -86.53327,
+ "revSrc": "online",
+ "headline": "Barber shop in<br><em>Bloomington,</em> haircuts and shaves.",
+ "leadText": "Hoosier Barber Shop at 908 N Walnut St, Bloomington. Customers say great cuts, a traditional vibe and a welcoming atmosphere.",
+ "reviews": reviews,
+ "theme": {
+  "accent": "#e0564a",
+  "ink": "#101112",
+  "ink2": "#191b1d",
+  "glow": "#3a2a26",
+  "accentDark": "#b03a30",
+  "note": "barber red on the dark straight-razor photo"
+ },
+ "mascot": "Hoosier Barber Assistant",
+ "mascotKind": "scissors",
+ "sampleCount": 2,
+ "hours": "Mon-Sat 8-5",
+ "hoursNote": "Closed Sunday. Hours from Yelp and directory listings, call to confirm.",
+ "services": [
+  {"t": "Haircut", "d": "Listed as a service on the shop's Yelp page.", "src": "From the shop's Yelp listing"},
+  {"t": "Haircut and shave", "d": "Listed as a service on the shop's Yelp page.", "src": "From the shop's Yelp listing"},
+  {"t": "Shave only", "d": "A customer describes a straight-razor shave with warm oils and hot towels.", "src": "From customer reviews"}
+ ],
+ "qa": [
+  {"q": "Where is the shop?", "a": "908 N Walnut St, Bloomington, IN 47404."},
+  {"q": "Do you do shaves?", "a": "The shop's Yelp page lists haircut, haircut and shave, and shave only. A customer wrote in a review: \u201cI took my elderly father in for a straight-razor shave and Jay did a fantastic job.\u201d"},
+  {"q": "How do I book?", "a": "The shop's directory listings say it is by appointment. Please call (812) 332-0444."},
+  {"q": "What are your hours?", "a": "Directory listings show Monday to Saturday 8 AM to 5 PM, closed Sunday. Please call to confirm."}
+ ],
+ "photoSources": [
+  "https://www.facebook.com/HoosierBarberShop/",
+  "https://www.yelp.com/biz/hoosier-barber-shop-bloomington-2",
+  "https://www.bestprosintown.com/in/bloomington/hoosier-barber-shop-/",
+  "https://exa.ai/library/place/cj6cvjm5dwl",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business's own"
+ ],
+ "images": {"hero": {"file": "hero.jpg"}},
+ "heroStock": True,
+ "heroPos": "50% 30%",
+ "enquiryTitle": "Ask the shop about a haircut or shave.",
+ "enquiryLabel": "What you would like (haircut, shave) and when",
+ "enquiryNote": "This is a request form only. It does not book an appointment or give a price."
+}
+json.dump(d, open('leads/hoosier-barber-shop.json', 'w'), indent=1, ensure_ascii=False)
+print('wrote leads/hoosier-barber-shop.json with', len(reviews), 'verified quotes')
