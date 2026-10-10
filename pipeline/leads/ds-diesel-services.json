@@ -1,0 +1,72 @@
+{
+ "slug": "ds-diesel-services",
+ "kind": "auto",
+ "name": "DS Diesel Services LLC",
+ "short": "DS Diesel",
+ "initial": "D",
+ "address": "2955 W Main St, Mobile, AL 36612",
+ "phone": "(251) 554-8261",
+ "phoneTel": "+12515548261",
+ "lat": 30.7505703,
+ "lon": -88.105374,
+ "headline": "Diesel repair in<br><em>Mobile,</em> trucks and fleets.",
+ "leadText": "DS Diesel Services LLC at 2955 W Main St, Mobile. Full-service diesel mechanics for medium and heavy duty trucks and off-road equipment, all makes and models.",
+ "reviews": [],
+ "theme": {
+  "accent": "#d6b44a",
+  "ink": "#111210",
+  "ink2": "#1b1a16",
+  "glow": "#383322",
+  "accentDark": "#ab8c33",
+  "note": "industrial yellow on the dark truck photo"
+ },
+ "mascot": "DS Diesel Assistant",
+ "mascotKind": "car",
+ "sampleCount": 2,
+ "services": [
+  {
+   "t": "Diesel maintenance and repair",
+   "d": "Full-service diesel garage for medium and heavy duty trucks, from the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Engine overhauls",
+   "d": "All makes and models, from maintenance to engine overhauls.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Fleet, municipal and off-road",
+   "d": "Individual, fleet and municipal trucks and off-road equipment.",
+   "src": "From the shop’s Facebook page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the garage?",
+   "a": "2955 W Main St, Mobile, AL 36612."
+  },
+  {
+   "q": "What do you work on?",
+   "a": "Medium and heavy duty trucks and off-road equipment, all makes and models, per the shop’s Facebook page - individual, fleet and municipal."
+  },
+  {
+   "q": "What are your hours?",
+   "a": "The shop’s hours are not confirmed in the sources checked. Please call (251) 554-8261 to check."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/dsdieselservices/",
+  "https://www.bbb.org/us/al/mobile/profile/diesel-repair/ds-diesel-services-llc-0463-235958519",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 55%",
+ "enquiryTitle": "Tell the garage about your truck or equipment.",
+ "enquiryLabel": "Vehicle or equipment (make, model) and what you need",
+ "enquiryNote": "This is a request form only. It does not give a quote or book an appointment.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true
+}
