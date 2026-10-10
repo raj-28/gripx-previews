@@ -1,0 +1,63 @@
+{
+  "slug": "gr-electrical",
+  "kind": "trade",
+  "name": "GR Electrical",
+  "short": "GR Electrical",
+  "initial": "G",
+  "address": "McMinnville, TN",
+  "phone": "(931) 314-5031",
+  "phoneTel": "+19313145031",
+  "lat": 0,
+  "lon": 0,
+  "headline": "Electrical work in<br><em>McMinnville, TN.</em>",
+  "leadText": "GR Electrical in McMinnville, TN. General electrical service - call or email to talk through your job, per its own page.",
+  "reviews": [],
+  "theme": {
+    "accent": "#5ba8e0",
+    "ink": "#101313",
+    "ink2": "#181d24",
+    "glow": "#24303f",
+    "accentDark": "#4282b0",
+    "note": "blue on the work photo"
+  },
+  "mascot": "GR Electrical Assistant",
+  "mascotKind": "sparkle",
+  "sampleCount": 2,
+  "services": [
+    {
+      "t": "Electrical service",
+      "d": "General electrical work, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Local electrician",
+      "d": "Based in McMinnville, TN, per the shop's own page.",
+      "src": "From the shop's own page"
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where are they based?",
+      "a": "McMinnville, TN. Call (931) 314-5031 or email GRElectricalTN@gmail.com to arrange a visit."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "Hours aren't published in the listings we checked - please call (931) 314-5031 to confirm."
+    }
+  ],
+  "enquiryTitle": "Ask GR Electrical anything.",
+  "enquiryLabel": "What do you need?",
+  "enquiryNote": "Or reach the shop directly: call (931) 314-5031 or email GRElectricalTN@gmail.com.",
+  "heroStock": true,
+  "heroPos": "center 35%",
+  "images": {
+    "hero": {
+      "file": "hero.jpg"
+    }
+  },
+  "photoSources": [
+    "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+  ],
+  "hoursNote": "Call to confirm today's hours.",
+  "noMap": true
+}
