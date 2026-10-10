@@ -1,0 +1,71 @@
+{
+  "slug": "artistic-soul-tattoos",
+  "kind": "tattoo",
+  "name": "Artistic Soul Tattoos",
+  "short": "Artistic Soul",
+  "initial": "A",
+  "address": "145 Thain Road Unit E, Lewiston, ID",
+  "phone": "(208) 743-9131",
+  "phoneTel": "+12087439131",
+  "lat": 0,
+  "lon": 0,
+  "headline": "Tattoos and piercings<br>in <em>Lewiston, ID.</em>",
+  "leadText": "Artistic Soul Tattoos at 145 Thain Road Unit E, Lewiston. A tattoo and piercing studio with a four-artist roster, per its own intro.",
+  "reviews": [],
+  "theme": {
+    "accent": "#c77fdb",
+    "ink": "#131114",
+    "ink2": "#1d1820",
+    "glow": "#362a3f",
+    "accentDark": "#a257b8",
+    "note": "plum on the studio photo"
+  },
+  "mascot": "Artistic Soul Assistant",
+  "mascotKind": "sparkle",
+  "sampleCount": 2,
+  "services": [
+    {
+      "t": "Tattoos",
+      "d": "Tattoo work from a four-artist roster.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Piercings",
+      "d": "Piercing services, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Resident artists",
+      "d": "Bobby Heflin, Josh Corder, Justine Walters and Corry Swanson, per the shop's own intro.",
+      "src": "From the shop's own page"
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where is the studio?",
+      "a": "145 Thain Road Unit E, Lewiston, ID."
+    },
+    {
+      "q": "Who are the artists?",
+      "a": "The shop's own intro names Bobby Heflin, Josh Corder, Justine Walters and Corry Swanson."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "Hours aren't published in the listings we checked - please call (208) 743-9131 to confirm."
+    }
+  ],
+  "enquiryTitle": "Ask Artistic Soul anything.",
+  "enquiryLabel": "What do you need?",
+  "enquiryNote": "Or reach the shop directly: call (208) 743-9131.",
+  "heroStock": true,
+  "heroPos": "center 35%",
+  "images": {
+    "hero": {
+      "file": "hero.jpg"
+    }
+  },
+  "photoSources": [
+    "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+  ],
+  "hoursNote": "Call to confirm today's hours."
+}
