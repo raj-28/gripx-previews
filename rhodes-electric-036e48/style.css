@@ -55,13 +55,13 @@ footer{background:#0e1116;color:#9aa3b0;padding:28px 0;font-size:14px}footer a{c
 
 .dd{position:relative}.dd .car{font-size:11px}
 .dd .menu{display:none;position:absolute;left:-14px;top:100%;padding-top:14px;min-width:250px}
-.dd .menu a{display:block;background:#171c24;color:#e9edf2;padding:12px 16px;border-bottom:1px solid #2a2f3a;font-size:14px}
+.dd .menu a{display:block;background:#0e1116;color:#e9edf2;padding:12px 16px;border-bottom:1px solid #2a2f3a;font-size:14px}
 .dd .menu a:first-child{border-radius:12px 12px 0 0}.dd .menu a:last-child{border-radius:0 0 12px 12px;border-bottom:0}
 .dd:hover .menu,.dd:focus-within .menu{display:block}
 .svcs{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .svcc{display:flex;gap:18px;align-items:flex-start;border:2px solid #e3e6ea;border-radius:16px;padding:24px}
 .svcc h3{margin:0 0 6px;font-size:19px}.svcc p{margin:0;color:#4a5260;font-size:15px}.svcc small{display:block;margin-top:8px;color:#6b7280;font-size:12px;font-style:italic}
-.sec.proud{background:linear-gradient(180deg,#0e1116,#171c24);color:#fff}.sec.proud h2{color:#fff}
+.sec.proud{background:linear-gradient(180deg,#0e1116,#0e1116);color:#fff}.sec.proud h2{color:#fff}
 .stats{display:flex;gap:14px;margin:0 0 28px;flex-wrap:wrap}
 .stat{border:2px solid #f5c518;border-radius:16px;padding:14px 22px;background:#ffffff0d;display:flex;flex-direction:column}
 .stat b{font-size:34px;color:#f5c518;line-height:1.1}.stat span{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:#c9cfd8;font-weight:700}
