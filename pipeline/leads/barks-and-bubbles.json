@@ -1,0 +1,66 @@
+{
+  "slug": "barks-and-bubbles",
+  "kind": "pet",
+  "name": "Barks & Bubbles Groom Shop",
+  "short": "Barks & Bubbles",
+  "initial": "B",
+  "address": "402 N 10th St, Saint Maries, ID",
+  "phone": "(208) 245-5755",
+  "phoneTel": "+12082455755",
+  "lat": 0,
+  "lon": 0,
+  "headline": "Grooming and boarding<br>in <em>Saint Maries.</em>",
+  "leadText": "Barks & Bubbles Groom Shop at 402 N 10th St, Saint Maries. Pet grooming and boarding, per its own page.",
+  "reviews": [],
+  "theme": {
+    "accent": "#7bd6a8",
+    "ink": "#101311",
+    "ink2": "#181d1a",
+    "glow": "#273a2f",
+    "accentDark": "#57b084",
+    "note": "mint on the grooming photo"
+  },
+  "mascot": "Barks & Bubbles Assistant",
+  "mascotKind": "paw",
+  "sampleCount": 2,
+  "services": [
+    {
+      "t": "Pet grooming",
+      "d": "Grooming services, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Pet boarding",
+      "d": "Boarding services, per the shop's own page.",
+      "src": "From the shop's own page"
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where is the shop?",
+      "a": "402 N 10th St, Saint Maries, ID."
+    },
+    {
+      "q": "Do they board pets?",
+      "a": "Yes - boarding is one of the services on the shop's own page."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "Hours aren't published in the listings we checked - please call (208) 245-5755 to confirm."
+    }
+  ],
+  "enquiryTitle": "Ask Barks & Bubbles anything.",
+  "enquiryLabel": "What do you need?",
+  "enquiryNote": "Or reach the shop directly: call (208) 245-5755.",
+  "heroStock": true,
+  "heroPos": "center 35%",
+  "images": {
+    "hero": {
+      "file": "hero.jpg"
+    }
+  },
+  "photoSources": [
+    "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+  ],
+  "hoursNote": "Call to confirm today's hours."
+}
