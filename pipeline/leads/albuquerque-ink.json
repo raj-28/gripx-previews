@@ -1,0 +1,72 @@
+{
+  "slug": "albuquerque-ink",
+  "kind": "tattoo",
+  "name": "Albuquerque Ink Tattoo",
+  "short": "Albuquerque Ink",
+  "initial": "A",
+  "address": "Albuquerque, NM",
+  "phone": "(505) 306-8623",
+  "phoneTel": "+15053068623",
+  "lat": 0,
+  "lon": 0,
+  "headline": "Tattoos and piercings<br>in <em>Albuquerque.</em>",
+  "leadText": "Albuquerque Ink Tattoo in Albuquerque, NM. A tattoo and piercing shop - walk-ins welcome and open every day, per its own intro.",
+  "reviews": [],
+  "theme": {
+    "accent": "#a78bfa",
+    "ink": "#121114",
+    "ink2": "#1a181f",
+    "glow": "#2f2a3f",
+    "accentDark": "#8263d6",
+    "note": "violet on the studio photo"
+  },
+  "mascot": "Albuquerque Ink Assistant",
+  "mascotKind": "sparkle",
+  "sampleCount": 2,
+  "services": [
+    {
+      "t": "Tattoos",
+      "d": "Tattoo work, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Piercings",
+      "d": "Piercing services, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Walk-ins welcome",
+      "d": "The shop's own intro says walk-ins are welcome and it is open every day.",
+      "src": "From the shop's own page"
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where is the shop?",
+      "a": "Albuquerque, NM. Call (505) 306-8623 or email albuquerqueink@gmail.com and they'll share the details."
+    },
+    {
+      "q": "Do you take walk-ins?",
+      "a": "The shop's own intro says walk-ins are welcome and it is open every day. Call (505) 306-8623 to confirm before visiting."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "The shop says it is open every day, but exact hours aren't published - call (505) 306-8623 to confirm."
+    }
+  ],
+  "enquiryTitle": "Ask Albuquerque Ink anything.",
+  "enquiryLabel": "What do you need?",
+  "enquiryNote": "Or reach the shop directly: call (505) 306-8623 or email albuquerqueink@gmail.com.",
+  "heroStock": true,
+  "heroPos": "center 35%",
+  "images": {
+    "hero": {
+      "file": "hero.jpg"
+    }
+  },
+  "photoSources": [
+    "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+  ],
+  "hoursNote": "Walk-ins welcome, open every day, per the shop's own intro. Call to confirm.",
+  "noMap": true
+}
