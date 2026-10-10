@@ -1,0 +1,82 @@
+{
+ "slug": "pawfection-grooming",
+ "kind": "pet",
+ "name": "Pawfection Grooming",
+ "short": "Pawfection",
+ "initial": "P",
+ "address": "5033 Dick Pond Rd unit C, Myrtle Beach, SC 29588",
+ "phone": "(843) 424-3278",
+ "phoneTel": "+18434243278",
+ "lat": 33.6762532,
+ "lon": -78.9993388,
+ "headline": "Pet grooming in<br><em>Myrtle Beach,</em> big and small.",
+ "leadText": "Pawfection Grooming at 5033 Dick Pond Rd, Myrtle Beach. Customized all-inclusive groom and bath packages for big and small pets, per the shop’s Facebook page.",
+ "reviews": [
+  "Jenn And her team are absolutely top-notch and the dogs always look fantastic",
+  "They do an AMAZING job grooming our Australian shepherd.",
+  "my dog was calm and happy when I picked her up",
+  "The entrance is inviting, the staff is incredibly kind",
+  "he always leaves looking like a handsome boy!"
+ ],
+ "revSrc": "online",
+ "theme": {
+  "accent": "#e08bb0",
+  "ink": "#121113",
+  "ink2": "#1c1a1d",
+  "glow": "#3a2d33",
+  "accentDark": "#b0658a",
+  "note": "rose on the clipping photo"
+ },
+ "mascot": "Pawfection Assistant",
+ "mascotKind": "paw",
+ "sampleCount": 2,
+ "hours": "Tue-Fri 8-3",
+ "hoursNote": "Closed Saturday, Sunday and Monday. Hours from directory listings, call to confirm.",
+ "services": [
+  {
+   "t": "Full grooms",
+   "d": "Customized all-inclusive groom packages, from the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Bath packages",
+   "d": "All-inclusive bath packages, from the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Big and small pets",
+   "d": "The shop grooms big and small pets, per its Facebook page.",
+   "src": "From the shop’s Facebook page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the salon?",
+   "a": "5033 Dick Pond Rd, unit C, Myrtle Beach, SC 29588."
+  },
+  {
+   "q": "Are they good with anxious dogs?",
+   "a": "A customer wrote in a review: “my dog was calm and happy when I picked her up — no shaking, no stress.”"
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Directory listings show Tuesday to Friday 8 AM to 3 PM, closed Saturday, Sunday and Monday. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/Pawfectiongroomer/",
+  "https://www.bestprosintown.com/sc/myrtle-beach/pawfection-grooming-salon-/",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 40%",
+ "enquiryTitle": "Ask the shop about grooming for your pet.",
+ "enquiryLabel": "Your pet (breed, size) and what you would like (groom, bath)",
+ "enquiryNote": "This is a request form only. It does not book an appointment.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "hoursStrip": "Tue-Fri 8-3 (directory - call to confirm)"
+}
