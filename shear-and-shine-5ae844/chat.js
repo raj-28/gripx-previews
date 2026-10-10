@@ -9,7 +9,7 @@ var rules=[
  [/phone|call|number|contact|reach/i,"You can call the shop at "+S.phone+"."],
  [/hour|open|close|when|today|sunday|saturday/i,"Listed hours: Tue-Sat 9-6. Closed Sunday and Monday. Shop hours from directory listings, call to confirm. Walk-in nail trimming runs Tuesday to Saturday 9 AM to 3 PM, from the shop’s Facebook. Hours can change, so check before you go."],
  [/price|cost|how much|quote|estimate|cheap|afford/i,"I don't have prices and can't give a quote here. For a quote, call "+S.phone+"."],
- [/review|customer|good|say|trust|service|friendly/i,"Customers say: \u201C"+S.reviews[0]+"\u201D and \u201C"+S.reviews[1]+"\u201D (Google reviews)."],
+ [/review|customer|good|say|trust|service|friendly/i,"Customers say: \u201C"+S.reviews[0]+"\u201D and \u201C"+S.reviews[1]+"\u201D (online reviews)."],
  [/subaru|honda|toyota|ford|chevy|make|model/i,S.kind==="auto"?"I can't confirm every make from here. Call "+S.phone+" with your car's make and model.":null],
  [S.kind==="auto"?/ac|a\/c|coolant|leak|spark|brake|engine|noise|repair|fix|diagnos|wrong/i:/service|offer|do you do|menu|what do/i,S.kind==="auto"?"The shop does auto repair. Call "+S.phone+" and describe what your car is doing.":(S.servicesLine||"Call "+S.phone+" to ask about services.")]
 ];
