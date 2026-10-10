@@ -1,0 +1,77 @@
+{
+ "slug": "fringes-studio-salon",
+ "kind": "salon",
+ "name": "Fringes Studio Salon and Spa",
+ "short": "Fringes",
+ "initial": "F",
+ "address": "4613 Old Broadway St, Knoxville, TN 37918",
+ "phone": "(865) 689-0555",
+ "phoneTel": "+18656890555",
+ "lat": 36.0162778,
+ "lon": -83.9244146,
+ "headline": "Hair salon in<br><em>Knoxville,</em> cuts and color.",
+ "leadText": "Fringes Studio Salon and Spa at 4613 Old Broadway St, Knoxville. Customers say knowledgeable stylists, great color work and a friendly, caring environment.",
+ "reviews": [
+  "Kayla is amazing and made me feel so beautiful and cared for!",
+  "Keely was fantastic!",
+  "she is knowledgeable, great at what she does, and has such a sweet and caring personality!",
+  "Very friendly environment and my hair has never looked so good!",
+  "She did an EXCELLENT job!"
+ ],
+ "revSrc": "online",
+ "theme": {
+  "accent": "#e08bb0",
+  "ink": "#121114",
+  "ink2": "#1c1a1e",
+  "glow": "#3a2c33",
+  "accentDark": "#b0658a",
+  "note": "rose on the dark salon photo"
+ },
+ "mascot": "Fringes Assistant",
+ "mascotKind": "scissors",
+ "sampleCount": 2,
+ "hours": "Mon-Sat 9-6",
+ "hoursNote": "Closed Sunday. Hours from directory listings, call to confirm.",
+ "services": [
+  {
+   "t": "Hair styling",
+   "d": "Customers praise the cuts and styling.",
+   "src": "From customer reviews"
+  },
+  {
+   "t": "Color",
+   "d": "Customers describe color fixes and color consults.",
+   "src": "From customer reviews"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the salon?",
+   "a": "4613 Old Broadway St, Knoxville, TN 37918."
+  },
+  {
+   "q": "Do you do color?",
+   "a": "A customer wrote in a review: “She listened to what I wanted, looked at my pictures, compared colors with me, and helped me pick out the color that would best suit what I wanted.”"
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Directory listings show Monday to Saturday 9 AM to 6 PM, closed Sunday. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/fringessalon/",
+  "https://www.bestprosintown.com/tn/knoxville/fringes-studio-salon-and-spa-/",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 30%",
+ "enquiryTitle": "Ask the salon about a cut or color.",
+ "enquiryLabel": "What you would like (cut, color) and when",
+ "enquiryNote": "This is a request form only. It does not book an appointment or give a price.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "hoursStrip": "Mon-Sat 9-6 (directory - call to confirm)"
+}
