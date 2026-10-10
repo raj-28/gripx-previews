@@ -40,21 +40,6 @@
    "t": "Basic maintenance to major engine repair",
    "d": "From the shop's own Facebook post.",
    "src": "From the shop's Facebook page"
-  },
-  {
-   "t": "Vehicle inspections",
-   "d": "A customer describes a complete inspection listed in order of importance.",
-   "src": "From customer reviews"
-  },
-  {
-   "t": "Diagnosis",
-   "d": "A customer says their car was diagnosed and explained quickly.",
-   "src": "From customer reviews"
-  },
-  {
-   "t": "Brake checks",
-   "d": "A customer says the shop checked their brake pads and told them what was needed.",
-   "src": "From customer reviews"
   }
  ],
  "qa": [
