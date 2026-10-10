@@ -1,0 +1,73 @@
+{
+ "slug": "expert-ink-tattoos",
+ "kind": "tattoo",
+ "name": "Expert Ink Tattoos & Piercings",
+ "short": "Expert Ink",
+ "initial": "E",
+ "address": "131 Hwy 78 W, Jasper, AL 35501",
+ "phone": "(205) 221-5769",
+ "phoneTel": "+12052215769",
+ "lat": 33.8490748,
+ "lon": -87.2760705,
+ "headline": "Tattoos and piercings in<br><em>Jasper,</em> Alabama.",
+ "leadText": "Expert Ink Tattoos & Piercings at 131 Hwy 78 W, Jasper. A tattoo and piercing shop; its Facebook page says tattoos start from $50 and piercings from $40.",
+ "reviews": [
+  "Amazing place recommend them to anyone that wants a tattoo.",
+  "Very friendly and knowledgeable and professional.",
+  "Friendly and fast!",
+  "Brian and Nicole are awesome!! Good people, good conversation, clean environment, and amazing work."
+ ],
+ "revSrc": "online",
+ "theme": {
+  "accent": "#c94a6a",
+  "ink": "#121114",
+  "ink2": "#1c1a1d",
+  "glow": "#3a2830",
+  "accentDark": "#a03350",
+  "note": "crimson on the dark studio photo"
+ },
+ "mascot": "Expert Ink Assistant",
+ "mascotKind": "sparkle",
+ "sampleCount": 2,
+ "services": [
+  {
+   "t": "Tattoos",
+   "d": "The shop’s Facebook page says tattoos start from $50. Final price depends on the piece.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Piercings",
+   "d": "The shop’s Facebook page says piercings start from $40. Final price depends on the piece.",
+   "src": "From the shop’s Facebook page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the shop?",
+   "a": "131 Hwy 78 W, Jasper, AL 35501."
+  },
+  {
+   "q": "What do tattoos cost?",
+   "a": "The shop’s Facebook page says tattoos start from $50 and piercings from $40. Final price depends on the piece - call (205) 221-5769 to ask."
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Directory listings disagree on the shop’s hours, so they are not shown here. Please call (205) 221-5769 to check."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/ExpertInk/",
+  "https://www.bestprosintown.com/al/jasper/expert-ink-tattoos-/",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 45%",
+ "enquiryTitle": "Ask the shop about a tattoo or piercing.",
+ "enquiryLabel": "What you have in mind (tattoo idea, piercing)",
+ "enquiryNote": "This is a request form only. It does not book an appointment or give a quote.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true
+}
