@@ -1,0 +1,72 @@
+{
+ "slug": "muddy-paws",
+ "kind": "pet",
+ "name": "Muddy Paws",
+ "short": "Muddy Paws",
+ "initial": "M",
+ "address": "151 Summit Centre Dr, Columbia, SC 29229",
+ "phone": "(803) 977-0015",
+ "phoneTel": "+18039770015",
+ "lat": 34.1428367,
+ "lon": -80.8848344,
+ "headline": "Pet grooming in<br><em>Columbia,</em> SC.",
+ "leadText": "Muddy Paws at 151 Summit Centre Dr, Columbia. A pet groomer offering bathing, grooming and nail trimming per directory listings. Call to ask about appointments.",
+ "reviews": [],
+ "theme": {
+  "accent": "#c9a26b",
+  "ink": "#121110",
+  "ink2": "#1d1b18",
+  "glow": "#383126",
+  "accentDark": "#9c7c4e",
+  "note": "warm tan on the bath-time photo"
+ },
+ "mascot": "Muddy Paws Assistant",
+ "mascotKind": "paw",
+ "sampleCount": 2,
+ "services": [
+  {
+   "t": "Bathing",
+   "d": "Listed on the shop’s grooming directory profile.",
+   "src": "From directory listings"
+  },
+  {
+   "t": "Grooming",
+   "d": "Listed on the shop’s grooming directory profile.",
+   "src": "From directory listings"
+  },
+  {
+   "t": "Nail trimming",
+   "d": "Listed on the shop’s grooming directory profile.",
+   "src": "From directory listings"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the shop?",
+   "a": "151 Summit Centre Dr, Columbia, SC 29229."
+  },
+  {
+   "q": "What services do you offer?",
+   "a": "Directory listings describe bathing, grooming and nail trimming. Please call (803) 977-0015 for details."
+  },
+  {
+   "q": "What are your hours?",
+   "a": "The shop’s hours are not confirmed in the sources checked. Please call (803) 977-0015 to check."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/muddypawssc/",
+  "https://www.mapquest.com/us/south-carolina/muddy-paws-488926059",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 45%",
+ "enquiryTitle": "Ask the shop about grooming for your pet.",
+ "enquiryLabel": "Your pet (breed, size) and what you would like (bath, groom, nail trim)",
+ "enquiryNote": "This is a request form only. It does not book an appointment.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true
+}
