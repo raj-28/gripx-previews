@@ -1,0 +1,87 @@
+{
+ "slug": "montes-brothers-tires",
+ "kind": "auto",
+ "name": "Montes Brothers Tires",
+ "short": "Montes Brothers",
+ "initial": "M",
+ "address": "2 Hampstead Ave, Savannah, GA 31405",
+ "phone": "(912) 210-7124",
+ "phoneTel": "+19122107124",
+ "lat": 32.0259643,
+ "lon": -81.1122625,
+ "headline": "Tires and auto repair in<br><em>Savannah,</em> open 7 days.",
+ "leadText": "Montes Brothers Tires at 2 Hampstead Ave, Savannah. New and used tires, sport rims, mounting, balance and auto repair.",
+ "reviews": [
+  "Fast and friendly. Worked me in for a minor but urgent repair when no one else would.",
+  "Great neighbors and great shop!",
+  "Was literally done and gone within 15 minutes from the time I pulled up looking for 2 tires.",
+  "These guys were awesome!",
+  "Jorge and Max got my tires done super-fast, and the price was very affordable."
+ ],
+ "revSrc": "online",
+ "theme": {
+  "accent": "#e07840",
+  "ink": "#121110",
+  "ink2": "#1d1a17",
+  "glow": "#3d2f24",
+  "accentDark": "#b25c2c",
+  "note": "burnt orange on the tire aisle photo"
+ },
+ "mascot": "Montes Brothers Assistant",
+ "mascotKind": "tire",
+ "sampleCount": 2,
+ "hours": "Mon-Fri 9-6, Sat 8-6, Sun 9-6",
+ "hoursNote": "Open 7 days. Hours from directory listings, call to confirm.",
+ "services": [
+  {
+   "t": "New and used tires",
+   "d": "Listed on the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Sport rims",
+   "d": "Listed on the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Tire mounting and balance",
+   "d": "Listed on the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  },
+  {
+   "t": "Auto repair",
+   "d": "Listed on the shop’s Facebook page.",
+   "src": "From the shop’s Facebook page"
+  }
+ ],
+ "qa": [
+  {
+   "q": "Where is the shop?",
+   "a": "2 Hampstead Ave, Savannah, GA 31405."
+  },
+  {
+   "q": "Are they fast?",
+   "a": "A customer wrote in a review: “Was literally done and gone within 15 minutes from the time I pulled up looking for 2 tires.”"
+  },
+  {
+   "q": "What are your hours?",
+   "a": "Directory listings show Monday to Friday 9 AM to 6 PM, Saturday 8 AM to 6 PM and Sunday 9 AM to 6 PM. Please call to confirm."
+  }
+ ],
+ "photoSources": [
+  "https://www.facebook.com/montesbrotherstires/",
+  "https://www.loc8nearme.com/georgia/savannah/the-brothers-tire-llc/4341898/",
+  "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+ ],
+ "heroPos": "50% 50%",
+ "enquiryTitle": "Ask the shop about tires or auto repair.",
+ "enquiryLabel": "What you need (tires, rims, repair) and your vehicle",
+ "enquiryNote": "This is a request form only. It does not give a quote or book an appointment.",
+ "images": {
+  "hero": {
+   "file": "hero.jpg"
+  }
+ },
+ "heroStock": true,
+ "hoursStrip": "Mon-Fri 9-6, Sat 8-6, Sun 9-6 (directory - call to confirm)"
+}
