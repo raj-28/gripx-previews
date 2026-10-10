@@ -1,0 +1,71 @@
+{
+  "slug": "krug-and-sons-hvac",
+  "kind": "trade",
+  "name": "Krug & Sons Mechanical & HVAC Services Inc",
+  "short": "Krug & Sons",
+  "initial": "K",
+  "address": "4619 Valley View Dr, Knoxville, TN",
+  "phone": "(865) 850-1183",
+  "phoneTel": "+18658501183",
+  "lat": 0,
+  "lon": 0,
+  "headline": "Heating and air in<br><em>Knoxville,</em> family owned.",
+  "leadText": "Krug & Sons Mechanical & HVAC Services at 4619 Valley View Dr, Knoxville. A locally and family owned heating and air company, per its own page.",
+  "reviews": [],
+  "theme": {
+    "accent": "#5ba8e0",
+    "ink": "#101313",
+    "ink2": "#181d24",
+    "glow": "#24303f",
+    "accentDark": "#4282b0",
+    "note": "blue on the work photo"
+  },
+  "mascot": "Krug & Sons Assistant",
+  "mascotKind": "sparkle",
+  "sampleCount": 2,
+  "services": [
+    {
+      "t": "Heating",
+      "d": "Heating service for local homes, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Air conditioning",
+      "d": "Air conditioning service, per the shop's own page.",
+      "src": "From the shop's own page"
+    },
+    {
+      "t": "Locally and family owned",
+      "d": "A locally and family owned company, per its own page.",
+      "src": "From the shop's own page"
+    }
+  ],
+  "qa": [
+    {
+      "q": "Where are they based?",
+      "a": "4619 Valley View Dr, Knoxville, TN."
+    },
+    {
+      "q": "Are they family owned?",
+      "a": "Yes - the company describes itself as locally and family owned."
+    },
+    {
+      "q": "What are your hours?",
+      "a": "Hours aren't published in the listings we checked - please call (865) 850-1183 to confirm."
+    }
+  ],
+  "enquiryTitle": "Ask Krug & Sons anything.",
+  "enquiryLabel": "What do you need?",
+  "enquiryNote": "Or reach the shop directly: call (865) 850-1183 or email krugheatingandair@gmail.com.",
+  "heroStock": true,
+  "heroPos": "center 35%",
+  "images": {
+    "hero": {
+      "file": "hero.jpg"
+    }
+  },
+  "photoSources": [
+    "Hero image: Pexels stock photo (free to use), illustrative only, not the business’s own"
+  ],
+  "hoursNote": "Call to confirm today's hours."
+}
