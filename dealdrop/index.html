@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#05070D">
+<title>DealDrop - Stop paying retail for AI compute</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/theme.css"></head><body>
+<script src="assets/app.js"></script>
+<script>
+const f=DEALS[0], unit=s=>s;
+const stat='-- Total Value Unlocked: '+money(TOTAL)+' --';
+const track=`<div class="statbar-track">${[0,1].map(()=>`<span>${stat}</span><span>${stat}</span>`).join('')}</div>`;
+function rows(list,off){return list.map((d,i)=>`<li><a class="item" href="deal.html?id=${d.id}"><div class="rk">#${i+off}<i class="dot"></i></div>${chip(d)}<div class="nm"><b>${d.name}</b><span>${d.tag}</span></div>
+ <div class="xtra"><em>${d.claimed.toLocaleString()}</em>claimed</div><div class="pr"><s>FREE</s><span class="tag">FREE</span></div></a></li>`).join('');}
+shell('home',`
+ <div class="statbar" role="status">${track}</div>
+ <nav class="pills" id="pills">${CATS.map((c,i)=>`<button class="pill ${i?'':'active'}" data-c="${c}">${c}</button>`).join('')}</nav>
+ <section class="hero"><h1>Stop paying retail for AI compute.</h1><p>Unlock exclusive, unpublicized deals on premium developer tools.</p></section>
+ <article class="glass featured" id="feat"></article>
+ <div class="section-title"><h3>All deals</h3><span id="count"></span></div>
+ <ol class="list" id="list"></ol>
+ <div class="side-inline"><div class="glass widget"><h4>Live claims <span class="live"><i></i>NOW</span></h4><ul class="feed">${feedHTML()}</ul></div><div class="glass widget"><h4>Value by category</h4><div class="bars">${barsHTML()}</div></div></div>`);
+function render(cat){
+ const ds=DEALS.filter(d=>cat==='All Tools'||d.cat===cat), top=ds[0];
+ $('#feat').innerHTML=top?`<div class="rank">#1<i class="dot"></i></div>
+  <div class="row"><div><h2>${top.name}</h2><div class="meta meta-d">${metaOf(top)}</div></div>
+  <div class="pcol"><div class="price-old">${price(top)}</div><div class="price-free">FREE</div></div></div>
+  <div class="meta meta-m">${metaOf(top)}</div><div class="fside"><div class="minis"><div><small>Claimed</small><b>${top.claimed.toLocaleString()}</b></div><div><small>You save</small><b>${money(top.old)}</b></div></div>
+  <a class="cta" href="deal.html?id=${top.id}">Unlock ${top.name} ${ICONS.arrow}</a></div>`:'';
+ // mobile CTA lives inside .fside too; fine for both
+ $('#list').innerHTML=ds.length>1?rows(ds.slice(1),2):'<li class="empty">No more deals in this category yet.</li>';
+ $('#count').textContent=ds.length+' deals';
+ document.querySelectorAll('.pill,#railcats a').forEach(e=>e.classList.toggle('active',e.dataset.c===cat));}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-c]');if(t){e.preventDefault();render(t.dataset.c)}});
+render(decodeURIComponent((location.search.match(/c=([^&]+)/)||[0,'All Tools'])[1]));animateTotal();
+</script></body></html>
