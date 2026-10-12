@@ -100,7 +100,7 @@ footer{background:#0e1620;color:#9aa3b0;padding:28px 0;font-size:14px}footer a{c
 .hero.has-img:not(.illus)::before{height:380px;background:linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,0) 25%,rgba(11,13,16,.55) 70%,#0b0d10 100%),var(--hero) var(--hpos,center 35%)/cover no-repeat}
 .hero.has-img:not(.illus) .hero-copy,.hero.illus .hero-copy{padding-top:272px}
 .hero h1{font-size:33px;line-height:1.08;margin-bottom:10px}
-.hero .lead{font-size:15.5px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:16px}
+.hero .lead{font-size:15.5px;line-height:1.45;margin-bottom:16px}
 .hero .cta{display:flex;gap:10px;flex-wrap:nowrap}
 .hero .cta .btn{flex:1;padding:14px 8px;font-size:15px;text-align:center;white-space:nowrap}
 .hero .cta .btn:first-child{flex:1.35}
