@@ -7,7 +7,7 @@ var fallback="I don't have that one. For anything else, email the shop at "+S.ph
 var rules=[
  [/where|address|locat|direction|find you|street/i,"We're at "+S.address+"."],
  [/phone|call|number|contact|reach/i,"You can email the shop at "+S.phone+"."],
- [/hour|open|close|when|today|sunday|saturday/i,"Listed hours: Call to confirm. Hours aren't published where we looked. Please email to confirm. Hours can change, so check before you go."],
+ [/hour|open|close|when|today|sunday|saturday/i,"Listed hours: Email to confirm. Hours aren't published where we looked. Please email to confirm. Hours can change, so check before you go."],
  [/price|cost|how much|quote|estimate|cheap|afford/i,"I don't have prices and can't give a quote here. For a quote, email "+S.phone+"."],
  [/review|customer|good|say|trust|service|friendly/i,(S.reviews&&S.reviews.length?"Customers say: \u201C"+S.reviews.slice(0,2).join("\u201D and \u201C")+"\u201D (customer reviews).":null)],
  [/subaru|honda|toyota|ford|chevy|make|model/i,S.kind==="auto"?"I can't confirm every make from here. Email "+S.phone+" with your car's make and model.":null],
