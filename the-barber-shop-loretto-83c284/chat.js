@@ -14,7 +14,7 @@ var rules=[
  [S.kind==="auto"?/ac|a\/c|coolant|leak|spark|brake|engine|noise|repair|fix|diagnos|wrong/i:/service|offer|do you do|menu|what do/i,S.kind==="auto"?"The shop does auto repair. Call "+S.phone+" and describe what your car is doing.":(S.servicesLine||"Call "+S.phone+" to ask about services.")]
 ];
 function reply(q){for(var i=0;i<rules.length;i++){if(rules[i][1]&&rules[i][0].test(q))return rules[i][1]}return fallback}
-add('bot',"Hi, I'm the "+S.short+" assistant. This is a demo chatbot made by GripX. Here are two questions customers might ask:");
+add('bot',"Hi, I'm "+(/^the /i.test(S.short)?"":"the ")+S.short+" assistant. This is a demo chatbot made by GripX. Here are two questions customers might ask:");
 for(var i=0;i<(S.sampleCount||0);i++){add('me',S.qa[i].q);add('bot',S.qa[i].a)}
 log.scrollTop=0;
 S.qa.slice(S.sampleCount||0).forEach(function(x){var b=document.createElement('button');b.type='button';b.textContent=x.q;b.onclick=function(){b.remove();send(x.q,x.a)};chips.appendChild(b)});
