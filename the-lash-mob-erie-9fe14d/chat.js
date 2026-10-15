@@ -8,7 +8,7 @@ var rules=[
  [/where|address|locat|direction|find you|street/i,"We're at "+S.address+"."],
  [/phone|call|number|contact|reach/i,"You can call the shop at "+S.phone+"."],
  [/hour|open|close|when|today|sunday|saturday/i,"Listed hours: Call to confirm. Contact the shop to confirm current hours. Hours can change, so check before you go."],
- [/price|cost|how much|quote|estimate|cheap|afford/i,"I don't have prices and can't give a quote here. For a quote, call "+S.phone+"."],
+ [/price|cost|how much|quote|estimate|cheap|afford/i,(S.priceLine||"I don't have prices and can't give a quote here. For a quote, call "+S.phone+".")],
  [/subaru|honda|toyota|ford|chevy|make|model/i,S.kind==="auto"?"I can't confirm every make from here. Call "+S.phone+" with your car's make and model.":null],
  [S.kind==="auto"?/ac|a\/c|coolant|leak|spark|brake|engine|noise|repair|fix|diagnos|wrong/i:/service|offer|do you do|menu|what do/i,S.kind==="auto"?"The shop does auto repair. Call "+S.phone+" and describe what your car is doing.":(S.servicesLine||"Call "+S.phone+" to ask about services.")]
 ];
