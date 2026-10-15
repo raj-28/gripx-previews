@@ -111,3 +111,4 @@ footer{background:#0d141b;color:#9aa3b0;padding:28px 0;font-size:14px}footer a{c
 .m{overflow-wrap:anywhere;word-break:break-word;min-width:0}
 
 .enq{display:grid;gap:14px;max-width:560px}.enq label{display:grid;gap:6px;font-weight:700;font-size:15px}.enq input,.enq textarea{font:inherit;padding:12px 14px;border-radius:10px;border:1px solid #c9ced6;background:#fff;color:#14171c}.enq .btn{border:0;cursor:pointer;font-size:16px;justify-self:start}.enqmsg{background:#14171c;color:#fff;padding:12px 14px;border-radius:10px;margin:0}.enqnote{font-size:13px;opacity:.7;margin:0}
+@media(min-width:821px){.hero.has-img{background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.72) 50%,rgba(0,0,0,.5)),var(--hero) center/cover no-repeat}}
